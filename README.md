@@ -44,4 +44,6 @@ python3 -m unittest discover -s tests -v
 
 The checks enforce licence coverage, asset boundaries, source hashes, token consistency, skill links and proposal status. CI runs these checks with read-only repository permissions. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+See [GitHub protection status](docs/github-protections.md) for the applied settings and the branch protections currently blocked by GitHub's plan restrictions.
+
 Use a reviewed commit or release for reproducible agent work. The sole publication hold is receipt of legal review. Follow the owner's instructions when that review is received; do not infer its receipt or change visibility automatically.

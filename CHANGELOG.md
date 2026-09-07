@@ -3,6 +3,10 @@
 
 # Changelog
 
+## Protection configuration, 8 September 2026
+
+Confirmed read-only Actions permissions and disabled Actions PR approval. Added CODEOWNERS using existing administrators and a prepared main-branch ruleset. Recorded GitHub plan and private-repository restrictions; required reviews, branch protection and secret scanning are not yet enforced. Visibility remains private solely pending legal review.
+
 ## Clarification, 8 September 2026
 
 Recorded the owner's instruction: the repository is private solely pending receipt of legal review. Design selection and routine release checks are not additional publication holds.

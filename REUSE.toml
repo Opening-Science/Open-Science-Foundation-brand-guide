@@ -7,7 +7,7 @@ SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["LICENSE", "NOTICE", "REUSE.toml", ".gitignore", ".github/workflows/*.yml", "AGENTS.md", "SKILL.md", "brand.json", "tokens/*.json", "tokens/*.css", "skills/*/SKILL.md", "scripts/*.py", "tests/*.py", "assets/logo/manifest.json"]
+path = ["LICENSE", "NOTICE", "REUSE.toml", ".gitignore", ".github/CODEOWNERS", ".github/rulesets/*.json", ".github/workflows/*.yml", "AGENTS.md", "SKILL.md", "brand.json", "tokens/*.json", "tokens/*.css", "skills/*/SKILL.md", "scripts/*.py", "tests/*.py", "assets/logo/manifest.json"]
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
 SPDX-License-Identifier = "Apache-2.0"

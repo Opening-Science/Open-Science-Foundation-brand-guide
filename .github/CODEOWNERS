@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation)
+# SPDX-License-Identifier: Apache-2.0
+# Existing repository administrators; this file grants no access.
+# Any one eligible owner may approve. Authors cannot approve their own PR.
+* @etzm @PaulMatthiasVUSE @robin-opening-science
+
+# Explicit ownership of identity, legal terms and agent/automation controls.
+/LICENSE @etzm @PaulMatthiasVUSE @robin-opening-science
+/LICENSES/ @etzm @PaulMatthiasVUSE @robin-opening-science
+/NOTICE @etzm @PaulMatthiasVUSE @robin-opening-science
+/TRADEMARK.md @etzm @PaulMatthiasVUSE @robin-opening-science
+/REUSE.toml @etzm @PaulMatthiasVUSE @robin-opening-science
+/assets/logo/ @etzm @PaulMatthiasVUSE @robin-opening-science
+/AGENTS.md @etzm @PaulMatthiasVUSE @robin-opening-science
+/SKILL.md @etzm @PaulMatthiasVUSE @robin-opening-science
+/skills/ @etzm @PaulMatthiasVUSE @robin-opening-science
+/.github/ @etzm @PaulMatthiasVUSE @robin-opening-science
