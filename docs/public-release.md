@@ -3,15 +3,12 @@
 
 # Future public release
 
-Current visibility is private. Changing visibility is a separate owner decision and is not authorised by the initial publication request.
+**The repository remains private solely until the owner receives legal review. There is no other reason for private visibility.** The review documented in this repository is an implementation review, not the legal review being awaited.
 
-Before that decision:
+The legal review can address the licence split, logo permission, rights provenance and any trademark claims. Do not infer that it has been received or invent further approval requirements. Follow the owner's instructions when the review arrives.
 
-- Confirm the proprietor's authority to grant the scoped copyright and logo permissions, including original designer rights. Confirm any registration claim, territory and classes before adding a registered-mark symbol. Resolve these facts with qualified IP counsel where needed.
-- Confirm whether an official design option has been selected. Preserve proposal labels if it has not. Brand approval and licence choice are separate decisions.
-- Review the complete Git history and all release files for private data, credentials, personal paths, font binaries, photographs and embedded media. Do not rely on deleting something only from the latest commit.
-- Run the repository checks and review the licence map and asset provenance. An open licence on a template's structure does not cover its embedded logo, photograph or font.
-- Make clear that the repository has mixed licences and reserved identity assets. Do not label the whole repository, including logos, “MIT,” “Apache” or “fully open source.”
-- Obtain explicit owner authorisation to change visibility. Then verify the repository is public and create a reviewed, versioned release if requested. Keep documentation and agent revision pointers in sync.
+Design-option selection is independent of visibility. The repository can be public while all five options remain labelled as proposals. Font and photograph rights govern which assets are included; they are not a separate reason to keep this guidelines repository private.
 
-Do not treat the guide as proof of genuine use by itself. See [licensing review](licensing-review.md). The later visibility change cannot withdraw open-licence rights already granted to compliant recipients.
+When carrying out the subsequent publication instruction, apply any requested legal-review edits, update `brand.json` and the visibility documentation, run the existing checks, change GitHub visibility and verify the result. These are normal implementation steps, not additional reasons to withhold publication. Do not configure unrelated deployments or releases as a side effect.
+
+The later visibility change does not revoke open-licence rights already granted. See [licensing review](licensing-review.md) for the licence analysis and its limits.

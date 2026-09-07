@@ -5,6 +5,8 @@
 
 Reviewed 8 September 2026 against the primary sources below. This is an implementation review, not a determination of OSF's registrations or chain of title. A qualified IP adviser should check those facts before public launch or enforcement.
 
+The owner has clarified that awaiting legal review is the sole reason for private visibility. This implementation review is not that legal review. No design-selection or other publication hold is intended.
+
 ## Decisions
 
 1. **CC BY 4.0 for prose:** appropriate for reusable guidance. Attribution, a licence reference and a record of modifications travel with shared adaptations. The licence excludes trademark and patent rights and cannot simply be withdrawn from compliant recipients. [CC legal code, sections 2, 3 and 6](https://creativecommons.org/licenses/by/4.0/legalcode.en).

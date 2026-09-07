@@ -34,7 +34,7 @@ Use `codex/` for a new branch unless the user specifies another name. Summarise 
 
 ## Access and release
 
-The repository is private. Authenticated read access should use the host's normal GitHub connector or credential manager, with access limited to this repository where supported. Never place a credential in a URL, prompt, tracked file or log.
+The repository remains private solely until the owner receives legal review. Do not invent other reasons or additional publication holds, including design-option selection. The implementation review in this repo is not the awaited legal review. Do not infer that the review has been received. Authenticated read access should use the host's normal GitHub connector or credential manager, with access limited to this repository where supported. Never place a credential in a URL, prompt, tracked file or log.
 
 Private access is not a confidentiality licence: CC BY and Apache recipients retain their licence rights. The host's permission to read does not independently authorise this agent to redistribute or publish. Do not make the repo public, configure Pages, publish releases or send files externally unless the user explicitly requests that action. Before a future public release, follow `docs/public-release.md` and preserve open-licence rights already granted.
 

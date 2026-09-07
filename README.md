@@ -14,7 +14,9 @@
 
 Guidelines for the Open Science Foundation (OSF), operated by Open Science Stiftung, based on [opening.science](https://opening.science). The Open Science Institute (OSI) is funded and governed by OSF.
 
-**Repository visibility: private.** Public release is planned, not authorised by this commit. GitHub access controls do not turn the CC BY or Apache terms into confidentiality obligations. Those licences apply now and permit redistribution under their terms by recipients with access. Confidential documents and uncleared assets therefore stay outside this repository and its history.
+**Repository visibility: private solely because the owner is awaiting legal review.** There is no other reason for keeping this repository private. Design selection and routine release checks are separate matters, not additional publication holds. This implementation review does not substitute for the legal review the owner is awaiting.
+
+GitHub access controls do not turn the CC BY or Apache terms into confidentiality obligations. Those licences apply now and permit redistribution under their terms by recipients with access. Confidential documents and uncleared assets therefore stay outside this repository and its history.
 
 ## Start here
 
@@ -42,4 +44,4 @@ python3 -m unittest discover -s tests -v
 
 The checks enforce licence coverage, asset boundaries, source hashes, token consistency, skill links and proposal status. CI runs these checks with read-only repository permissions. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Use a reviewed commit or release for reproducible agent work. Repository publication is a separate, explicit owner action. No public website, GitHub Pages deployment or scheduled publishing is configured.
+Use a reviewed commit or release for reproducible agent work. The sole publication hold is receipt of legal review. Follow the owner's instructions when that review is received; do not infer its receipt or change visibility automatically.
