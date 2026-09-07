@@ -14,3 +14,7 @@ Recorded the owner's instruction: the repository is private solely pending recei
 ## 0.1.0, 8 September 2026
 
 Private initial guidelines repository. Added the mixed-licence index and full texts, limited logo permission, provenance, portable agent instructions, five proposal descriptions and validation. Corrected the desktop mono-family spelling in the CSS snapshot to ABC Diatype Semi Mono. Fonts and the original Office kit remain external. No public release or default-design approval is recorded.
+
+## 8 September 2026: selected default
+
+The owner selected option 01 Open editorial as the fixed default for all formats. Agent instructions and machine-readable status now reflect this decision. Options 02 to 05 remain alternatives. Private visibility remains solely pending legal review.

@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "visibilityIntent": "private",
   "publicReleaseApproved": false,
-  "defaultOption": null,
-  "provisionalFallback": "01",
-  "optionsStatus": "proposals",
+  "defaultOption": "01",
+  "optionsStatus": "default_selected",
   "options": [
     "01",
     "02",
@@ -20,5 +19,6 @@
   "sourceThemePath": "app/assets/css/main.css",
   "sourceThemeSha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646",
   "privateReason": "pending_legal_review",
-  "legalReviewStatus": "awaiting_receipt"
+  "legalReviewStatus": "awaiting_receipt",
+  "selectionDate": "2026-09-08"
 }

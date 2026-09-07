@@ -132,8 +132,8 @@ def check(root=ROOT):
         errors.append('Theme provenance mismatch')
     if brand['visibilityIntent'] != 'private' or brand['publicReleaseApproved'] is not False:
         errors.append('Public-release decision requires an explicit policy/check update')
-    if brand['defaultOption'] is not None or brand['optionsStatus'] != 'proposals':
-        errors.append('Design approval requires an explicit policy/check update')
+    if brand['defaultOption'] != '01' or brand['optionsStatus'] != 'default_selected':
+        errors.append('Changing the owner-selected default requires an explicit policy/check update')
     if sorted(x['id'] for x in tokens['variants']) != brand['options']:
         errors.append('Option list mismatch')
     return errors
@@ -145,4 +145,4 @@ if __name__ == '__main__':
     if problems:
         print('\n'.join(problems))
         raise SystemExit(1)
-    print('PASS: licence coverage, logo provenance, asset boundaries, links, skills, tokens and proposal status')
+    print('PASS: licence coverage, logo provenance, asset boundaries, links, skills, tokens and selected default')

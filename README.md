@@ -20,12 +20,12 @@ GitHub access controls do not turn the CC BY or Apache terms into confidentialit
 
 ## Start here
 
-- [Brand guide](docs/brand-guide.md), [formats](docs/formats.md) and [five layout proposals](docs/options.md).
+- [Brand guide](docs/brand-guide.md), [formats](docs/formats.md) and [layout options and selected default](docs/options.md).
 - [AGENTS.md](AGENTS.md) for repository work; [SKILL.md](SKILL.md) for creating communications.
 - [Agent setup](docs/agent-setup.md), including authenticated access and version pinning.
 - [Licensing review](docs/licensing-review.md) and [public-release checklist](docs/public-release.md).
 
-No proposal has been selected as the official default. If a task does not specify an option, agents may use **01 Open editorial** provisionally and must state the assumption. This is not design approval. The website theme remains authoritative; these are medium-specific adaptations.
+**01 Open editorial is the owner-selected, fixed default**, selected on 8 September 2026. Use it across all formats unless the user explicitly requests another option. Options 02 to 05 are retained alternatives. The website theme remains authoritative; these are medium-specific adaptations.
 
 ## Editable templates
 

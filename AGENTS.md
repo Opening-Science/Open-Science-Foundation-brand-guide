@@ -11,7 +11,7 @@ The website's `app/assets/css/main.css` theme is the design authority. `tokens/`
 
 ## Communication tasks
 
-Read root `SKILL.md`, then the appropriate `skills/osf-*/SKILL.md`. All five layout options remain proposals. Honour a user's selected option; otherwise use 01 provisionally and state that assumption. Never record design approval without explicit user selection.
+Read root `SKILL.md`, then the appropriate `skills/osf-*/SKILL.md`. Option 01 Open editorial is the owner-selected, fixed default as of 8 September 2026. Use it for all formats unless the user explicitly requests another option. Options 02 to 05 are retained alternatives, not defaults.
 
 Use Selecta and ABC Diatype Semi Mono, exact token colours, original logos, left-aligned titles and existing layout patterns. Do not substitute fonts silently. Do not copy or embed commercial font files in this repository, skill packages or released templates. Keep the logo's separate permission with any distribution.
 

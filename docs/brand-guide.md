@@ -3,7 +3,7 @@
 
 # OSF brand guide
 
-Status: five proposals for selection, 7 September 2026. This kit translates existing website patterns into presentation, social and document formats. It does not change the website or admit new website components.
+Status: 01 Open editorial selected by the owner as the fixed default on 8 September 2026. Apply it across all formats unless explicitly directed otherwise. Options 02 to 05 remain alternatives. This kit translates existing website patterns into presentation, social and document formats. It does not change the website or admit new website components.
 
 ## Design authority
 

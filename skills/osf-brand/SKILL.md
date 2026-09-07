@@ -10,7 +10,7 @@ description: Apply OSF brand rules to communications assets when the user reques
 
 Read [external assets](../../docs/external-assets.md). Locate the external kit using the user-provided path or OSF_BRANDKIT_PATH. Read [Brand guide](../../docs/brand-guide.md) and [tokens](../../tokens/tokens.json). If paths were lost when the skill was installed, request or locate the kit instead of inventing its rules.
 
-Select the user’s chosen option under 03_Options in the external Office kit. The five options are proposals, not five separate identities. If no option was specified, use 01 Open editorial and state the assumption. For social, presentations or documents, read the corresponding skill. Keep the existing template editable and check the final rendered output against it.
+Use the owner-selected, fixed default 01 Open editorial under 03_Options in the external Office kit unless the user explicitly requests another option. Options 02 to 05 remain alternatives within the same identity. For social, presentations or documents, read the corresponding skill. Keep the existing template editable and check the final rendered output against it.
 
 ## Shared brand constraints
 
