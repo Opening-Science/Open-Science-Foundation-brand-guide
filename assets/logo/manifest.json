@@ -1,0 +1,32 @@
+[
+  {
+    "path": "assets/logo/OSF_mark_website.png",
+    "sha256": "9219bc59ab89f33fddafea19a460d2797cd52fea655eb58c617a1c55e99c1e1f",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_mark_website.png"
+  },
+  {
+    "path": "assets/logo/OSF_mark_website.svg",
+    "sha256": "bef9c1f947bbc39dae1fa2e30eeea9dd2da23483ba4c5927113c723007aa1935",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_mark_website.svg"
+  },
+  {
+    "path": "assets/logo/OSF_negative.png",
+    "sha256": "8816d9c45f62b370f9665dacd8b6a122967fa2bf2276bdc6c2cdb9f56b88163c",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_negative.png"
+  },
+  {
+    "path": "assets/logo/OSF_negative_original.svg",
+    "sha256": "a4effe8c61e077fa7881ed6e87412b2de1cc2ca11db8cbf00096727c48db4f2a",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_negative_original.svg"
+  },
+  {
+    "path": "assets/logo/OSF_positive.png",
+    "sha256": "e6a3e1d1890e3f3104ca30b9a1595cfe57c4d4763248d764dbe9aa63b9952074",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_positive.png"
+  },
+  {
+    "path": "assets/logo/OSF_positive_original.svg",
+    "sha256": "6a2813ca6de4b2c10f99948a1c1124cbc2a0c2a51c457d62cecdb1d5e86d5f8a",
+    "source": "OSF_Brandkit/02_Shared_assets/Logos/OSF_positive_original.svg"
+  }
+]

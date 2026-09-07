@@ -1,0 +1,28 @@
+OSF brand guidelines: licence scope index
+
+Copyright 2026 Open Science Stiftung (Open Science Foundation), except where
+another rights holder is identified. Grants apply only to rights the relevant
+licensor is authorised to grant.
+
+1. Prose and documentation: Creative Commons Attribution 4.0 International.
+   Full unmodified text: LICENSES/CC-BY-4.0.txt.
+2. Implementation files, tokens, CSS, recipes, skills and agent instructions:
+   Apache License, Version 2.0. Full unmodified text: LICENSES/Apache-2.0.txt.
+3. Logo and wordmark artwork: LicenseRef-OSF-Brand-Assets, a limited,
+   non-open permission. Full text: LICENSES/LicenseRef-OSF-Brand-Assets.txt.
+   TRADEMARK.md explains trademark use and the distinction from copyright.
+
+Per-file SPDX notices and REUSE.toml define the exact scope. The root index does
+not grant an additional or alternative licence. Unknown files must receive an
+explicit classification before being committed. Licence texts are reproduced
+as legal instruments; they are not relicensed as repository implementation code.
+
+CC BY and Apache do not license the OSF marks for branding a derivative work.
+Trademark policy does not revoke or narrow the separate CC BY or Apache grants,
+or rights and exceptions available independently under applicable law.
+
+Commercial fonts, photographs and the original Office kit are absent. No rights
+in those external materials are granted. See docs/external-assets.md.
+
+Private GitHub visibility controls access. It does not revoke the licences
+already granted to recipients or impose confidentiality on licensed material.

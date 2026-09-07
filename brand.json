@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "visibilityIntent": "private",
+  "publicReleaseApproved": false,
+  "defaultOption": null,
+  "provisionalFallback": "01",
+  "optionsStatus": "proposals",
+  "options": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "guide": "docs/brand-guide.md",
+  "tokens": "tokens/tokens.json",
+  "sourceRepository": "https://github.com/Opening-Science/homepage",
+  "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417",
+  "sourceThemePath": "app/assets/css/main.css",
+  "sourceThemeSha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646"
+}

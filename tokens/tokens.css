@@ -1,0 +1,18 @@
+:root {
+  --osf-white: #ffffff;
+  --osf-black: #1d1d1d;
+  --osf-gray: #646363;
+  --osf-gray-light: #eeeeee;
+  --osf-blue: #73adff;
+  --osf-blue-ink: #1c4e8f;
+  --osf-cream-light: #f8f8f4;
+  --osf-cream: #efeee7;
+  --osf-cream-dark: #c0beb2;
+  --osf-cream-darker: #6f6e66;
+  --osf-yellow: #e3be00;
+  --osf-yellow-light: #fefbe9;
+  --osf-button: #323232;
+  --osf-button-hover: #000000;
+  --osf-font-body: 'Selecta';
+  --osf-font-mono: 'ABC Diatype Semi Mono';
+}
