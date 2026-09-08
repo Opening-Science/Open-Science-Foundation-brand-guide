@@ -6,12 +6,12 @@
     "themeSha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646"
   },
   "files": {
-    "README.md": "d52f4bfb2591e88e18be075582906aa945d8fa4f9a88998eaed5ffcb91aa159e",
+    "README.md": "27941b843109efe1f340fcf76d19fcbb53198204df87dae6b44f3bc2eaba1997",
     "SPEC.md": "caa9eda14d65e1248f019210f0b38c62becb1bed4cc85dc370cde688c0fc66a8",
     "starter/.agents/skills/design-extend/SKILL.md": "ae05b9153524960910c499f32ab3c028ec6ae465353b46a7172fbf66c4e76e35",
-    "starter/.github/workflows/ci.yml": "7044e3d147ace854a0a84d9c970fd191e51f27b46881f52b8b7e30ed59149d78",
-    "starter/.gitignore": "ab5d0b9b40292e7a39b683bd2ccb6a2986bbe071ec3526abd258f96f2884eee0",
-    "starter/AGENTS.md": "175e040e5c9ad7f4053adc166d26cb59e6bbf6fcf81309e5da954f66a50f6ff2",
+    "starter/.github/workflows/ci.yml": "15bb9b67115af9d71c17f0bcd2fe2de091d2596138261c7e0038b2e0e4f1b014",
+    "starter/.gitignore": "2f322b5ab25c8a6f7c05069833c0cda4bc3dd13d5740a4af082a4638780239c0",
+    "starter/AGENTS.md": "89199b1a2d12d40d097467c91543530b45e158cfbcf5673ab0d88baf24779f8a",
     "starter/LICENSE": "610c418e1aceed555ff1bbd4c35474b6183fdfad2f8f46a1e518cb531189ff43",
     "starter/LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "starter/README.md": "73eab8c36e495b609cf97834f70b79b4af6daa0dae670bdc8bd79e076c152613",
@@ -54,6 +54,6 @@
     "starter/tests/harness.test.mjs": "1bedc65c70850844f1fa6ef95325d5f0994a7e00a05b47ca6d7b58b04f806cfe",
     "starter/tsconfig.json": "8f8bef3556bfb75ec7d5a7f67edd4e9156b4ee7759852eef0cce77452c4b37fd",
     "upstream-files.json": "2d7ce329da310deba0442cdc04a4ca679677f32dd666df0a6a6ee0e00c3c720a",
-    "verification/REPORT.md": "ef1268b069e470806b32460585cb710b72ff3ece00e0a2c4da055655eef66118"
+    "verification/REPORT.md": "b5270315e86e9ad2164ab1196375bee23df979fb6cbba31b445718384c762e3f"
   }
 }

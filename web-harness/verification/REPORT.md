@@ -71,3 +71,24 @@ Run the root Python checks and the starter commands in its README. Root CI
 verifies provenance and asset boundaries; starter CI installs from the lock,
 runs regression and type checks, inserts the lab probe and generates output.
 Follow the starter's visual procedure with your own authorized font setup.
+
+## PR review follow-up, 8 September 2026
+
+Confirmed and fixed the build-state conflict, early-abort diagnostics and
+fixture dependency copying. Both workflows pin setup-node v5 to commit
+a0853c24544627f65ddf259abe73b1d18a591444. Starter agent instructions map the
+upstream checker documentation references to the bundled design-extend
+workflow without modifying the byte-identical checker.
+
+Validation used Node 22 with a fresh npm ci, design:check,
+design:tokens:check, 17 Node tests, typecheck and generate. Generation
+excluded the injected lab route and passed the output guard. With installed
+dependencies, build output, dist symlink and the lab probe still present,
+both Python checkers and all 12 Python tests passed. Regression tests cover
+build state, simultaneous bad files and theme tampering, strict inventory
+recording, and a missing canonical theme. CI repeats repository validation
+after generation in the same checkout.
+
+No visual source or theme changed. The prior visual evidence was not
+repeated for these tooling corrections. Commercial fonts remain external;
+this functional build does not establish typography fidelity.

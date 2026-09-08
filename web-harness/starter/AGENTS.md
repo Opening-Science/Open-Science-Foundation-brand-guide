@@ -57,3 +57,11 @@ Keep font binaries, media, secrets and deployment credentials out of this
 source package. Supply licensed fonts separately. Preserve the MIT notice for
 upstream source and the Apache notice for starter tooling. Do not publish or
 send content unless the user's task authorizes it.
+
+## Upstream checker messages
+
+The unchanged upstream checker may mention design/DESIGN-EVOLUTION.md or
+design/components/README.md. Those upstream documents are not bundled here.
+Use the local [design-extend workflow](.agents/skills/design-extend/SKILL.md)
+and the admitted specs in design/components instead. These messages do not
+allow bypassing the two human approval gates.

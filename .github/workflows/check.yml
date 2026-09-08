@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
           cache: npm
@@ -38,3 +38,9 @@ jobs:
           mkdir -p app/pages/_lab
           echo '<template><h1>__OSF_LAB_PROBE__</h1></template>' > app/pages/_lab/probe.vue
       - run: npm run generate
+      - name: Check repository integrity after building in this checkout
+        working-directory: .
+        run: |
+          python3 scripts/check.py
+          python3 scripts/check-web-harness.py
+          python3 -m unittest discover -s tests -v
