@@ -8,6 +8,7 @@ Checked 8 September 2026. The repository remains private solely pending receipt 
 | Control | Current state |
 |---|---|
 | Actions default token permissions | Read-only; Actions cannot approve pull requests |
+| Actions allowlist | Existing `actions/checkout@*` plus only `actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444`; all other GitHub-owned and verified actions remain disabled. The exact setup-node commit was added for the harness CI on 8 September 2026 |
 | Workflow validation | Existing `check` job runs on pushes and pull requests |
 | Branch rulesets and classic branch protection | Unavailable for this private repository under its current GitHub plan; both APIs return 403 |
 | CODEOWNERS | Added for the three existing administrators; no roles or access were changed. Required owner approval is not enforced while branch rules are unavailable |
