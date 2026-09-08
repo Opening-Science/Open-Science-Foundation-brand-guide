@@ -7,3 +7,5 @@ node_modules/
 *.log
 public/fonts/*
 !public/fonts/README.md
+
+/dist

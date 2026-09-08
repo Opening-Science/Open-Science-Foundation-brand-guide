@@ -79,3 +79,18 @@ and scope map so copying it preserves the notices. Existing logo rights stay
 separate. No fonts, photos, videos, private source captures or deployment
 credentials are included. This addition does not itself alter the brand
 repository's visibility or recorded release policy.
+
+## Local working state
+
+The distribution inventory excludes starter/node_modules, .nuxt, .output,
+.data, dist and app/pages/_lab. Building or exploring an isolated lab does
+not require recording a new manifest. Other unexpected source files still
+fail the integrity check, including untracked files outside those locations.
+Lab pages remain subject to production exclusion and output checks. Copy
+from a clean checkout for distribution so local dependencies, generated
+output and experiments are not copied with the starter.
+
+Inventory errors are accumulated alongside source and theme mismatches.
+The --record command refuses invalid input rather than recording a partial
+inventory. CI runs the repository checks after generation in the same
+checkout to exercise this workflow.

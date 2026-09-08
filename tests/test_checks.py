@@ -13,7 +13,7 @@ class BoundaryChecks(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)/'repo'
-        shutil.copytree(module.ROOT, self.root, ignore=shutil.ignore_patterns('.git','__pycache__','.venv'))
+        shutil.copytree(module.ROOT, self.root, ignore=shutil.ignore_patterns('.git', '__pycache__', '.venv', 'node_modules', '.nuxt', '.output', '.data', 'dist'))
     def tearDown(self):
         self.temp.cleanup()
     def test_new_file_needs_licence(self):
