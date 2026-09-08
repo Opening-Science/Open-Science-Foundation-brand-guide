@@ -25,3 +25,14 @@ Added a portable Nuxt starter with seven unchanged website components, the
 canonical web theme, scoped MIT notices, agent instructions and governed
 extension workflow. Added CSS/radius checks, rendered-output guards, source
 integrity validation and CI. Fonts and media remain external.
+
+## Website harness 0.2.0, 8 September 2026
+
+Added supported Astro instructions reusing the existing components, stylesheet
+and checks, with no second starter. The upstream scanner reads app/ only and
+cannot be repointed, so the policy scanner was extended to cover what it cannot
+reach: .astro files, every conventional source directory, static inline style
+attributes, raw colour literals, arbitrary utilities and lab references outside
+app/. Colour and style utility classes there remain unvetted, and component
+specs are not required outside app/components. Recorded that astro build exits 0
+on a component that fails to server render, making astro check a required gate.

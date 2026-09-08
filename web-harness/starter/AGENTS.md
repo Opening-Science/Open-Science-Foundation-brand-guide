@@ -47,6 +47,10 @@ npm run typecheck and npm run generate. Inspect every generated route at
 Check fonts actually load, keyboard operation, one h1/main, no overflow and
 reduced motion. Report missing dependencies and unverified claims.
 
+scripts/design-policy.mjs also serves the Astro path in ../ASTRO.md: it scans
+.astro files, checks static inline style attributes and covers every
+conventional source directory that exists. Keep that behaviour when editing it.
+
 The static scanner is bounded: dynamically constructed classes, arbitrary
 JavaScript styles and all possible CSS syntax are not fully interpreted.
 Rendered review remains mandatory. The canonical stylesheet retains approved
