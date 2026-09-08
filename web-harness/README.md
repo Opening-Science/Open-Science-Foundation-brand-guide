@@ -3,11 +3,15 @@
 
 # OSF website harness
 
-Version 0.1.0 packages the existing website design system for Nuxt 4, Vue 3
+Version 0.2.0 packages the existing website design system for Nuxt 4, Vue 3
 and Tailwind 4. It includes a runnable starter, seven unchanged upstream
 components, canonical CSS, agent instructions, scoped exceptions, regression
-checks and two example pages. Other frameworks are not yet supported by the
-checker or component implementation.
+checks and two example pages.
+
+The distributed starter is Nuxt. [ASTRO.md](ASTRO.md) documents the supported
+way to build with the same design system on Astro, reusing the copied
+components, stylesheet and checks without a second starter. No other framework
+is supported by the checker or the component implementation.
 
 ## Use in another project
 
@@ -52,8 +56,10 @@ override the starter's web font alias or responsive sizing.
 ## Verification and updates
 
 Run the root brand checks, python3 scripts/check-web-harness.py, and the
-starter's commands. See [verification evidence](verification/REPORT.md) for
-this version and the starter's visual verification procedure for new pages.
+starter's commands. [verification/REPORT.md](verification/REPORT.md) records
+the 0.1.0 starter evidence and [verification/ASTRO.md](verification/ASTRO.md)
+the 0.2.0 Astro evidence. Follow the starter's visual verification procedure
+for new pages.
 The added policy checks close the demonstrated raw-size and radius gaps;
 rendered output catches duplicate h1/main elements. Static checks do not
 prove every CSS construction or accessibility property. The inherited accent

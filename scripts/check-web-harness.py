@@ -73,7 +73,11 @@ def check(kit=KIT):
 if __name__ == '__main__':
     if sys.argv[1:] == ['--record']:
         brand = json.loads((ROOT/'brand.json').read_text())
-        manifest = {'version':'0.1.0', 'source':{'repository':brand['sourceRepository'], 'commit':brand['sourceCommit'], 'themeSha256':brand['sourceThemeSha256']}, 'files': inventory()}
+        try:
+            version = json.loads(MANIFEST.read_text())['version']
+        except (OSError, ValueError, KeyError):
+            version = '0.1.0'  # the tool that rewrites the manifest must survive a broken one
+        manifest = {'version':version, 'source':{'repository':brand['sourceRepository'], 'commit':brand['sourceCommit'], 'themeSha256':brand['sourceThemeSha256']}, 'files': inventory()}
         MANIFEST.write_text(json.dumps(manifest, indent=2)+'\n')
         print('Recorded distribution inventory. Review source and manifest changes together.')
     elif sys.argv[1:]:

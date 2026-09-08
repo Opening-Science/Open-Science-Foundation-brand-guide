@@ -19,7 +19,11 @@ responsive sizing and layout; Office or social adaptations do not override it.
 Use a reviewed harness revision. For a new website, copy the complete starter
 including dotfiles, then install from its lockfile. For an existing project,
 review integration before replacing configuration or source. Supported scope
-is Nuxt 4, Vue 3 and Tailwind 4. Do not claim enforcement on another framework.
+is Nuxt 4 or Astro 5, each with Vue 3 and Tailwind 4. For Astro, follow
+[the Astro instructions](../../web-harness/ASTRO.md): they keep the copied tree
+at app/ so the unmodified upstream scanner still governs it, and they make
+astro check a required gate because astro build exits 0 on a component that
+fails to server render. Do not claim enforcement on another framework.
 Read the page spec and component inventory; compose the approved content.
 Follow the included design-extend skill if new vocabulary is needed.
 
