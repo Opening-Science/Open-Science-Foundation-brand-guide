@@ -1,24 +1,11 @@
-name: Check guidelines
+name: Website harness
 on: [push, pull_request]
 permissions:
   contents: read
 jobs:
   check:
     runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-        with:
-          persist-credentials: false
-      - run: python3 scripts/check.py
-      - run: python3 scripts/check-web-harness.py
-      - run: python3 -m unittest discover -s tests -v
-
-  web-harness:
-    runs-on: ubuntu-24.04
     timeout-minutes: 15
-    defaults:
-      run:
-        working-directory: web-harness/starter
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -27,7 +14,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: web-harness/starter/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm run design:check
       - run: npm run design:tokens:check
@@ -38,9 +25,3 @@ jobs:
           mkdir -p app/pages/_lab
           echo '<template><h1>__OSF_LAB_PROBE__</h1></template>' > app/pages/_lab/probe.vue
       - run: npm run generate
-      - name: Check repository integrity after building in this checkout
-        working-directory: .
-        run: |
-          python3 scripts/check.py
-          python3 scripts/check-web-harness.py
-          python3 -m unittest discover -s tests -v

@@ -25,6 +25,7 @@ Python 3.11+ is sufficient. There is no build step or dependency installation re
 
 ```sh
 python3 scripts/check.py
+python3 scripts/check-web-harness.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -39,3 +40,7 @@ The repository remains private solely until the owner receives legal review. Do 
 Private access is not a confidentiality licence: CC BY and Apache recipients retain their licence rights. The host's permission to read does not independently authorise this agent to redistribute or publish. Do not make the repo public, configure Pages, publish releases or send files externally unless the user explicitly requests that action. Before a future public release, follow `docs/public-release.md` and preserve open-licence rights already granted.
 
 For repeatable work, report the actual commit or tag used. An AGENTS.md or SKILL.md file is guidance only when loaded by the agent host or the user; do not claim automatic installation or universal discovery.
+
+For the website package, read web-harness/README.md and run the starter checks.
+The canonical stylesheet and copied components retain their MIT notices.
+A starter build adds Node 22.12+ to the Python-only brand validation requirements.

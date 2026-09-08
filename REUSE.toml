@@ -7,7 +7,24 @@ SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["LICENSE", "NOTICE", "REUSE.toml", ".gitignore", ".github/CODEOWNERS", ".github/rulesets/*.json", ".github/workflows/*.yml", "AGENTS.md", "SKILL.md", "brand.json", "tokens/*.json", "tokens/*.css", "skills/*/SKILL.md", "scripts/*.py", "tests/*.py", "assets/logo/manifest.json"]
+path = [
+  "LICENSE",
+  "NOTICE",
+  "REUSE.toml",
+  ".gitignore",
+  ".github/CODEOWNERS",
+  ".github/rulesets/*.json",
+  ".github/workflows/*.yml",
+  "AGENTS.md",
+  "SKILL.md",
+  "brand.json",
+  "tokens/*.json",
+  "tokens/*.css",
+  "skills/*/SKILL.md",
+  "scripts/*.py",
+  "tests/*.py",
+  "assets/logo/manifest.json"
+]
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
 SPDX-License-Identifier = "Apache-2.0"
@@ -17,3 +34,45 @@ path = ["assets/logo/*.svg", "assets/logo/*.png"]
 precedence = "closest"
 SPDX-FileCopyrightText = "Open Science Stiftung (Open Science Foundation) and respective original asset rights holders"
 SPDX-License-Identifier = "LicenseRef-OSF-Brand-Assets"
+
+[[annotations]]
+path = ["web-harness/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "web-harness/SPEC.md",
+  "web-harness/starter/app/assets/css/main.css",
+  "web-harness/starter/scripts/design-check.mjs",
+  "web-harness/starter/scripts/design-tokens.mjs",
+  "web-harness/starter/app/utils/ui.ts",
+  "web-harness/starter/app/components/layout/SkipLink.vue",
+  "web-harness/starter/app/components/section/SectionIntro.vue",
+  "web-harness/starter/design/components/SectionIntro.md",
+  "web-harness/starter/app/components/section/MediaCarousel.vue",
+  "web-harness/starter/design/components/MediaCarousel.md",
+  "web-harness/starter/app/components/section/PostList.vue",
+  "web-harness/starter/design/components/PostList.md",
+  "web-harness/starter/app/components/ui/Tag.vue",
+  "web-harness/starter/design/components/Tag.md",
+  "web-harness/starter/app/components/ui/Citation.vue",
+  "web-harness/starter/design/components/Citation.md",
+  "web-harness/starter/app/components/ui/LicenseNotice.vue",
+  "web-harness/starter/design/components/LicenseNotice.md",
+  "web-harness/starter/LICENSE",
+  "web-harness/starter/design/allowlist.json",
+  "web-harness/starter/design/components/grandfathered.json",
+  "web-harness/starter/design/system/tokens.json",
+  "web-harness/starter/design/system/css-variables.css"
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["web-harness/README.md", "web-harness/verification/*.md"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "CC-BY-4.0"

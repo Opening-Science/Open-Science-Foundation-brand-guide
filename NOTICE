@@ -7,3 +7,7 @@ OSF logos and the stylised wordmark are separately governed by
 LicenseRef-OSF-Brand-Assets and TRADEMARK.md. No endorsement is granted.
 
 This notice is informational and does not modify any licence.
+
+The web harness includes MIT-licensed source from Opening-Science/homepage,
+Copyright 2026 Open Science Stiftung (Open Science Foundation). Source commits,
+hashes and adaptations are recorded in web-harness/upstream-files.json.

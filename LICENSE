@@ -12,6 +12,10 @@ licensor is authorised to grant.
    non-open permission. Full text: LICENSES/LicenseRef-OSF-Brand-Assets.txt.
    TRADEMARK.md explains trademark use and the distinction from copyright.
 
+4. Copied website source in web-harness: MIT. Full text: LICENSES/MIT.txt.
+   REUSE.toml identifies the exact files and derived exports. Their existing
+   notices are preserved. New web harness tooling remains Apache-2.0.
+
 Per-file SPDX notices and REUSE.toml define the exact scope. The root index does
 not grant an additional or alternative licence. Unknown files must receive an
 explicit classification before being committed. Licence texts are reproduced

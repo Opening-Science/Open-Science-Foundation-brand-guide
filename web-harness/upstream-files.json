@@ -1,0 +1,155 @@
+[
+  {
+    "source": "app/assets/css/main.css",
+    "destination": "starter/app/assets/css/main.css",
+    "sourceSha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646",
+    "sha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "scripts/design-check.mjs",
+    "destination": "starter/scripts/design-check.mjs",
+    "sourceSha256": "4d5ee3885998a7f0c4e4d06906b1fdc776dc1c49d0ee449b239c72a8e3d690f2",
+    "sha256": "4d5ee3885998a7f0c4e4d06906b1fdc776dc1c49d0ee449b239c72a8e3d690f2",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "scripts/design-tokens.mjs",
+    "destination": "starter/scripts/design-tokens.mjs",
+    "sourceSha256": "2ae70164f77b87e15076a27f9a9a3d694e425dc0261543d1e27f9fdc8add3d3c",
+    "sha256": "2ae70164f77b87e15076a27f9a9a3d694e425dc0261543d1e27f9fdc8add3d3c",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/utils/ui.ts",
+    "destination": "starter/app/utils/ui.ts",
+    "sourceSha256": "9972c3d668727916d9559e3ad2ab88841bf4356390a78652334ba7cdf568e3fb",
+    "sha256": "9972c3d668727916d9559e3ad2ab88841bf4356390a78652334ba7cdf568e3fb",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/layout/SkipLink.vue",
+    "destination": "starter/app/components/layout/SkipLink.vue",
+    "sourceSha256": "ac605715d8b45b05021e1fd0830dc72720bd3ef9ff213efd37506d5324eb4f84",
+    "sha256": "ac605715d8b45b05021e1fd0830dc72720bd3ef9ff213efd37506d5324eb4f84",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/section/SectionIntro.vue",
+    "destination": "starter/app/components/section/SectionIntro.vue",
+    "sourceSha256": "814b05d53d55875f5251f76a4a0fa2bb1f03e7869fca0e6ecaa6845a1072f63a",
+    "sha256": "814b05d53d55875f5251f76a4a0fa2bb1f03e7869fca0e6ecaa6845a1072f63a",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/SectionIntro.md",
+    "destination": "starter/design/components/SectionIntro.md",
+    "sourceSha256": "47b5e984f3e0c524a1792a1954a27a26930a3b450815309bb685fa26dd4dc5a6",
+    "sha256": "c7a26529e13e66230a5d14216bd42df3cf55d555e44bdd0b7454bc37c55f63b6",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/section/MediaCarousel.vue",
+    "destination": "starter/app/components/section/MediaCarousel.vue",
+    "sourceSha256": "1ce594dfb7586a7762d2ef800814a30979ae63761632f703cfcd64e916a17c7a",
+    "sha256": "1ce594dfb7586a7762d2ef800814a30979ae63761632f703cfcd64e916a17c7a",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/MediaCarousel.md",
+    "destination": "starter/design/components/MediaCarousel.md",
+    "sourceSha256": "61cebe80bbb690fbcc7826a25a76e7d98177e8f8cf7cba30f69f3b46ec096a56",
+    "sha256": "a956969ac7f0f0713f44bbf551b2c67a4c899d5b87e3fdcf28b24b68c1003b6a",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/section/PostList.vue",
+    "destination": "starter/app/components/section/PostList.vue",
+    "sourceSha256": "f61f3ef6e5389c5e7088fb705ffc31ae78cba14ebb246cd033aefb8edb88795c",
+    "sha256": "f61f3ef6e5389c5e7088fb705ffc31ae78cba14ebb246cd033aefb8edb88795c",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/PostList.md",
+    "destination": "starter/design/components/PostList.md",
+    "sourceSha256": "60d4885fc7d912f5c30240a8ed70fa2b5ebffabb397954aaff58900f8faae6b2",
+    "sha256": "8c33df588a16f46bc3cfac2cb079ff0f0869467ed79129adf463d1418d5ffde9",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/ui/Tag.vue",
+    "destination": "starter/app/components/ui/Tag.vue",
+    "sourceSha256": "19474ad15d11004908b0249525d2c1a80fc79a1749617c9e1883a3b4144bb87f",
+    "sha256": "19474ad15d11004908b0249525d2c1a80fc79a1749617c9e1883a3b4144bb87f",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/Tag.md",
+    "destination": "starter/design/components/Tag.md",
+    "sourceSha256": "f7a94972811fd5d08c86e924b3dbfb1e83a682bdbf50ac3631f8d9c8c4f5f7d4",
+    "sha256": "01293d587913528d1200327b3b5300b7b5fc7ec6220bec69f0afc1eefc7e9e79",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/ui/Citation.vue",
+    "destination": "starter/app/components/ui/Citation.vue",
+    "sourceSha256": "5640697fe0153d72090aadd73f2102fc85d8cccec75e8eff9814e72ff2b90891",
+    "sha256": "5640697fe0153d72090aadd73f2102fc85d8cccec75e8eff9814e72ff2b90891",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/Citation.md",
+    "destination": "starter/design/components/Citation.md",
+    "sourceSha256": "fbf489877d9ad750af6aa39e1b0bae99846b323a7578987a0b25ab88883d65e4",
+    "sha256": "0448e1afd079dad0f9b243cbb904e91a678dffa43ed3ba76280e1a07770b7f06",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "app/components/ui/LicenseNotice.vue",
+    "destination": "starter/app/components/ui/LicenseNotice.vue",
+    "sourceSha256": "e8518c39c8f64f01f9945c871c43c7acb903fcd79ef25a7fe1119d110ba206bb",
+    "sha256": "e8518c39c8f64f01f9945c871c43c7acb903fcd79ef25a7fe1119d110ba206bb",
+    "adaptation": null,
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/components/LicenseNotice.md",
+    "destination": "starter/design/components/LicenseNotice.md",
+    "sourceSha256": "6108803d770e18678c905e0d52591d3c8cdb3739aad8b8691331dde17163004e",
+    "sha256": "6986a13bda0fac0617a45ec62077457e1e5a422c0aa1c71ca579ffe2aee3c844",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  },
+  {
+    "source": "design/HARNESS-PUBLICATION.md",
+    "destination": "SPEC.md",
+    "sourceSha256": "c1ed5368454ca8405f888feb4dfdd4651913b782d2cb382fb19f7da381fb7780",
+    "sha256": "caa9eda14d65e1248f019210f0b38c62becb1bed4cc85dc370cde688c0fc66a8",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sourceCommit": null,
+    "sourceNote": "Original proposal authored for this task; not part of the pinned upstream commit."
+  },
+  {
+    "source": "LICENSE",
+    "destination": "starter/LICENSE",
+    "sourceSha256": "68e90699c41bdd6122e4273037ef7efb2c39b7e887bc9096b57b2a38e75641b0",
+    "sha256": "610c418e1aceed555ff1bbd4c35474b6183fdfad2f8f46a1e518cb531189ff43",
+    "adaptation": "MIT legal text and copyright preserved; scope paragraph restricted to copied source identified in REUSE.toml.",
+    "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
+  }
+]

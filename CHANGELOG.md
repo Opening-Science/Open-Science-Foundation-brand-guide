@@ -18,3 +18,10 @@ Private initial guidelines repository. Added the mixed-licence index and full te
 ## 8 September 2026: selected default
 
 The owner selected option 01 Open editorial as the fixed default for all formats. Agent instructions and machine-readable status now reflect this decision. Options 02 to 05 remain alternatives. Private visibility remains solely pending legal review.
+
+## Website harness 0.1.0, 8 September 2026
+
+Added a portable Nuxt starter with seven unchanged website components, the
+canonical web theme, scoped MIT notices, agent instructions and governed
+extension workflow. Added CSS/radius checks, rendered-output guards, source
+integrity validation and CI. Fonts and media remain external.

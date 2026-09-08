@@ -4,3 +4,10 @@ __pycache__/
 .venv/
 .env
 .env.*
+
+node_modules/
+.nuxt/
+.output/
+.data/
+
+/web-harness/starter/dist
