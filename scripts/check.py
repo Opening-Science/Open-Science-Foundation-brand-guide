@@ -12,10 +12,10 @@ import tomllib
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORED = {'.git', '__pycache__', '.venv'}
+IGNORED = {'.git', '__pycache__', '.venv', 'node_modules', '.nuxt', '.output', '.data'}
 FONT_SUFFIXES = {'.otf', '.ttf', '.woff', '.woff2', '.eot', '.odttf', '.ttc'}
 OFFICE_SUFFIXES = {'.pptx', '.potx', '.key', '.docx', '.dotx', '.xlsx', '.zip', '.pdf'}
-LICENCES = {'CC-BY-4.0', 'Apache-2.0', 'LicenseRef-OSF-Brand-Assets'}
+LICENCES = {'CC-BY-4.0', 'Apache-2.0', 'LicenseRef-OSF-Brand-Assets', 'MIT'}
 
 def matches(path, pattern):
     # REUSE-style * excludes slashes; ** spans directories.

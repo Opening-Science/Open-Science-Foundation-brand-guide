@@ -7,6 +7,7 @@
 |---|---|
 | Guideline prose, documentation and this README | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) |
 | Tokens, CSS, machine-readable recipes, agent skills, agent instructions, validation code, administrative metadata and CI configuration | [Apache-2.0](LICENSES/Apache-2.0.txt) |
+| Copied website source, component specs and derived web tokens in `web-harness/` | [MIT](LICENSES/MIT.txt); exact scope in REUSE.toml |
 | Logo and wordmark artwork in `assets/logo/` | [OSF Brand Assets Permission](LICENSES/LicenseRef-OSF-Brand-Assets.txt), **not an open licence**; see [TRADEMARK.md](TRADEMARK.md) |
 | Commercial fonts, photographs and the original Office template kit | Not included or licensed by this repository; see [external assets](docs/external-assets.md) |
 
@@ -27,6 +28,12 @@ GitHub access controls do not turn the CC BY or Apache terms into confidentialit
 
 **01 Open editorial is the owner-selected, fixed default**, selected on 8 September 2026. Use it across all formats unless the user explicitly requests another option. Options 02 to 05 are retained alternatives. The website theme remains authoritative; these are medium-specific adaptations.
 
+## Website harness
+
+Use the [website harness](web-harness/README.md) for a runnable Nuxt starter,
+portable agent instructions, admitted components and design checks. Copied
+website source retains MIT; new tooling uses Apache-2.0. Fonts remain external.
+
 ## Editable templates
 
 The five PowerPoint/Keynote systems, social canvases and A4/Letter Word templates remain in `06_Communications_Brand/OSF_Brandkit` in the organisation's existing Proton Drive. Give an authorised agent that folder or the specific editable template. This repository is the guidelines and agent layer, not a mirror of the Office kit. [Why the files are separate](docs/external-assets.md).
@@ -39,6 +46,7 @@ Use Python 3.11 or later. No runtime dependencies are needed:
 
 ```sh
 python3 scripts/check.py
+python3 scripts/check-web-harness.py
 python3 -m unittest discover -s tests -v
 ```
 
