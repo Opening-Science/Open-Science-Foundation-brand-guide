@@ -5,7 +5,7 @@
 
 Reviewed 8 September 2026 against the primary sources below. This is an implementation review, not a determination of OSF's registrations or chain of title. A qualified IP adviser should check those facts before public launch or enforcement.
 
-The owner has clarified that awaiting legal review is the sole reason for private visibility. This implementation review is not that legal review. No design-selection or other publication hold is intended.
+Historical note from 8 September 2026: the owner described awaiting legal review as the sole reason for private visibility. On 10 September 2026 GitHub was already public, and the owner requested the dated guide and motion archive. This implementation review is not the awaited legal review; its receipt is not inferred.
 
 ## Decisions
 

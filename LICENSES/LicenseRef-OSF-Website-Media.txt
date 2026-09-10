@@ -1,0 +1,22 @@
+OSF website media: rights notice, 10 September 2026
+SPDX identifier: LicenseRef-OSF-Website-Media
+
+This file records existing rights. It grants no new licence or permission.
+
+The website's public/videos files, their poster frames, the foundation's
+animated visual identity and faithful captures of that identity retain the
+rights of Open Science Stiftung (Open Science Foundation) and their respective
+original rights holders. They are not covered by the website's MIT source-code
+licence or this repository's CC BY and Apache grants.
+
+The owner requested archival copies in this repository on 10 September 2026.
+That request does not create a general public reuse, modification or sublicensing
+grant. Obtain applicable permission for reuse beyond existing authorisation.
+Source-code portions remain under their upstream MIT terms; foundation names
+and marks remain distinct from those software rights. Existing statutory rights
+and separately granted permissions are unaffected.
+
+See assets/motion/PROVENANCE.md and assets/motion/manifest.json for sources,
+commit, hashes and the distinction between originals and generated captures.
+No photographer or filmmaker credit, designer assignment or licence clearance
+is inferred. Contact: office@opening.science.

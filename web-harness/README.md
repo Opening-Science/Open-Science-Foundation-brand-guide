@@ -15,7 +15,7 @@ is supported by the checker or the component implementation.
 
 ## Use in another project
 
-Check out a reviewed osf-brand commit or tag and record its identifier.
+Check out a reviewed Open-Science-Foundation-brand-guide commit or tag and record its identifier.
 Copy web-harness/starter, including its dotfiles, into a new directory:
 
 ```sh

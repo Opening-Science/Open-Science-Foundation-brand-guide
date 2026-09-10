@@ -3,13 +3,13 @@
 
 # Access from different agents
 
-The repo is private. Give the agent's GitHub integration or local account read access to `Opening-Science/osf-brand`. Use repository-scoped credentials where the host supports them. Store credentials in the host's normal credential manager, never in this repo or a prompt.
+The repository was observed as public on 10 September 2026. For authorised writes, give the agent's GitHub integration or local account suitable access to `Opening-Science/Open-Science-Foundation-brand-guide`. Use repository-scoped credentials where the host supports them. Store credentials in the host's normal credential manager, never in this repo or a prompt.
 
 For a local agent with GitHub CLI already authenticated:
 
 ```sh
-gh repo clone Opening-Science/osf-brand
-cd osf-brand
+gh repo clone Opening-Science/Open-Science-Foundation-brand-guide
+cd Open-Science-Foundation-brand-guide
 git rev-parse HEAD
 ```
 

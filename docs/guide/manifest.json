@@ -1,0 +1,20 @@
+{
+  "edition": "2026-09-10",
+  "pages": 26,
+  "assets": [
+    {
+      "path": "docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf",
+      "sha256": "df7b15ac8b3abe9bb5d43c0846d6f4884efacfbb3e2bb8c4580c4940adc5e2d2",
+      "license": "CC-BY-4.0 AND LicenseRef-OSF-Brand-Assets AND LicenseRef-OSF-Website-Media",
+      "source": "docs/guide/build.py, original logos and registered motion/media assets"
+    },
+    {
+      "path": "docs/guide/cover.png",
+      "sha256": "419c8a7b2912301f590c72961d1cdd4b0d090ca4ef480f660ed37f8ac753a711",
+      "license": "CC-BY-4.0 AND LicenseRef-OSF-Brand-Assets AND LicenseRef-OSF-Website-Media",
+      "source": "docs/guide/build.py, original logos and registered motion/media assets"
+    }
+  ],
+  "fontProgramsEmbedded": false,
+  "textCompanion": "docs/brand-guide-2026-09-10-text.md"
+}

@@ -12,3 +12,7 @@ Selecta and ABC Diatype Semi Mono are commercial desktop fonts. Install them onl
 The original Office kit includes website photographs and logo artwork inside Office archives and previews. A top-level Apache notice cannot change their rights. This repo therefore does not copy the existing PPTX, POTX, KEY, DOCX, DOTX, photographs or composite previews into Git history. The licence grants here do not automatically relicense the external kit.
 
 For future template admission, prefer asset-free editable structure with replaceable logo/image slots. Record the file's rights and any embedded exceptions; inspect archive contents and rendered output. Do not describe a mixed template as wholly open-licensed. Publishing the current guidelines does not approve publication of the external Office kit.
+
+## Dated guide exception, 10 September 2026
+
+The owner requested the visual PDF and all website animations. The registered guide, six captured animations, five website videos and four posters are now included under explicitly scoped rights. This is not an admission of the external Office kit or unrelated photographs. No font binaries are included; the final PDF uses vector outlines. See the [motion provenance](../assets/motion/PROVENANCE.md).

@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# OSF brand guidelines
+# Open Science Foundation brand guide
 
 | Content | Licence |
 |---|---|
@@ -9,15 +9,32 @@
 | Tokens, CSS, machine-readable recipes, agent skills, agent instructions, validation code, administrative metadata and CI configuration | [Apache-2.0](LICENSES/Apache-2.0.txt) |
 | Copied website source, component specs and derived web tokens in `web-harness/` | [MIT](LICENSES/MIT.txt); exact scope in REUSE.toml |
 | Logo and wordmark artwork in `assets/logo/` | [OSF Brand Assets Permission](LICENSES/LicenseRef-OSF-Brand-Assets.txt), **not an open licence**; see [TRADEMARK.md](TRADEMARK.md) |
-| Commercial fonts, photographs and the original Office template kit | Not included or licensed by this repository; see [external assets](docs/external-assets.md) |
+| Archived website motion artwork, videos and posters | Existing rights retained; [media notice](LICENSES/LicenseRef-OSF-Website-Media.txt) |
+| Dated visual PDF and cover | Composite: CC BY prose plus separately scoped logo and media rights |
+| Commercial fonts, other photographs and the original Office template kit | Not included or licensed by this repository; see [external assets](docs/external-assets.md) |
 
 [LICENSE](LICENSE) is the scope index. File headers, adjacent `.license` notices and [REUSE.toml](REUSE.toml) identify the applicable terms. There is no blanket licence for the whole repository.
 
 Guidelines for the Open Science Foundation (OSF), operated by Open Science Stiftung, based on [opening.science](https://opening.science). The Open Science Institute (OSI) is funded and governed by OSF.
 
-**Repository visibility: private solely because the owner is awaiting legal review.** There is no other reason for keeping this repository private. Design selection and routine release checks are separate matters, not additional publication holds. This implementation review does not substitute for the legal review the owner is awaiting.
+**Repository visibility observed 10 September 2026: public.** The dated visual guide and motion archive are published at the owner’s explicit request. Older private-visibility wording was stale. The legal-review receipt status remains unverified and is still recorded as `awaiting_receipt`; publication does not assert that review was completed.
 
 GitHub access controls do not turn the CC BY or Apache terms into confidentiality obligations. Those licences apply now and permit redistribution under their terms by recipients with access. Confidential documents and uncleared assets therefore stay outside this repository and its history.
+
+
+## Visual guide · 10 September 2026
+
+[Download the 26-page PDF](docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf) · [Readable text](docs/brand-guide-2026-09-10-text.md) · [Build source](docs/guide/README.md)
+
+[![Open Science Foundation brand guide cover](docs/guide/cover.png)](docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf)
+
+This visual edition covers purpose, voice, the original logo family, clear space, colour, contrast, typography, layout, motion and application examples. It uses the existing **01 Open editorial** identity. The PDF uses vector outlines; no commercial font software is bundled.
+
+### Website animations and videos
+
+The [motion archive](assets/motion/README.md) includes all six procedural brand animations as original source, GIF and MP4 exports, PNG stills and a runnable preview gallery. It also includes all five website MP4s and four original posters, plus the associated animation and transition source snapshots.
+
+Source and media retain separate rights. See the [provenance record](assets/motion/PROVENANCE.md) and [hash manifest](assets/motion/manifest.json). The repository was renamed from `Opening-Science/osf-brand` to `Opening-Science/Open-Science-Foundation-brand-guide` for this edition. Its existing public visibility is retained.
 
 ## Start here
 
@@ -47,6 +64,7 @@ Use Python 3.11 or later. No runtime dependencies are needed:
 ```sh
 python3 scripts/check.py
 python3 scripts/check-web-harness.py
+python3 scripts/check-motion.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -54,4 +72,4 @@ The checks enforce licence coverage, asset boundaries, source hashes, token cons
 
 See [GitHub protection status](docs/github-protections.md) for the applied settings and the branch protections currently blocked by GitHub's plan restrictions.
 
-Use a reviewed commit or release for reproducible agent work. The sole publication hold is receipt of legal review. Follow the owner's instructions when that review is received; do not infer its receipt or change visibility automatically.
+Use a reviewed commit or release for reproducible agent work. Follow the owner’s publication instructions and preserve existing rights. Do not infer receipt of legal review from repository visibility.

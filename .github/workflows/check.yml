@@ -11,6 +11,7 @@ jobs:
           persist-credentials: false
       - run: python3 scripts/check.py
       - run: python3 scripts/check-web-harness.py
+      - run: python3 scripts/check-motion.py
       - run: python3 -m unittest discover -s tests -v
 
   web-harness:
@@ -44,3 +45,19 @@ jobs:
           python3 scripts/check.py
           python3 scripts/check-web-harness.py
           python3 -m unittest discover -s tests -v
+
+  motion-preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: assets/motion
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: assets/motion/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm run build

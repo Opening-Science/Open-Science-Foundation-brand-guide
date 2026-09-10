@@ -25,8 +25,14 @@ CC BY and Apache do not license the OSF marks for branding a derivative work.
 Trademark policy does not revoke or narrow the separate CC BY or Apache grants,
 or rights and exceptions available independently under applicable law.
 
-Commercial fonts, photographs and the original Office kit are absent. No rights
+Commercial font binaries and the original Office kit are absent. The specifically
+admitted website videos and posters retain their existing rights. No rights
 in those external materials are granted. See docs/external-assets.md.
 
 Private GitHub visibility controls access. It does not revoke the licences
 already granted to recipients or impose confidentiality on licensed material.
+
+5. Archived website media and captures: LicenseRef-OSF-Website-Media records
+   existing rights and grants no new permission. The PDF and cover combine
+   CC BY prose, separately permitted original logos and restricted media.
+   Original website motion source retains MIT, excluding names and marks.

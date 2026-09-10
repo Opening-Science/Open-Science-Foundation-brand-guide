@@ -34,6 +34,20 @@ class BoundaryChecks(unittest.TestCase):
         p=self.root/'SKILL.md'
         p.write_text(p.read_text()+'\n[bad](../outside.md)\n')
         self.assertTrue(any('Broken or escaping local link' in x for x in module.check(self.root)))
+    def test_unregistered_pdf_remains_prohibited(self):
+        (self.root/'docs/unregistered.pdf').write_bytes(b'%PDF-1.7\nnot admitted')
+        self.assertTrue(any('requires separate admission: docs/unregistered.pdf' in x for x in module.check(self.root)))
+    def test_registered_media_change_is_rejected(self):
+        p = self.root/'assets/motion/videos/location.mp4'
+        p.write_bytes(p.read_bytes()+b'changed')
+        self.assertTrue(any('Admitted asset differs' in x for x in module.check(self.root)))
+    def test_registered_media_cannot_be_relicensed_as_code(self):
+        p = self.root/'REUSE.toml'
+        p.write_text(p.read_text().replace('SPDX-License-Identifier = "LicenseRef-OSF-Website-Media"', 'SPDX-License-Identifier = "Apache-2.0"'))
+        self.assertTrue(any('Admitted asset mislicensed' in x for x in module.check(self.root)))
+    def test_missing_registered_export_is_rejected(self):
+        (self.root/'assets/motion/exports/hero.gif').unlink()
+        self.assertTrue(any('Missing admitted asset' in x for x in module.check(self.root)))
 
 if __name__ == '__main__':
     unittest.main()

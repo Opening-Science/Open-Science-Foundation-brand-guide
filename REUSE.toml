@@ -76,3 +76,33 @@ path = ["web-harness/README.md", "web-harness/verification/*.md"]
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
 SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["assets/motion/**", "docs/guide/*.py", "docs/guide/*.css", "docs/guide/manifest.json"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["assets/motion/source/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["assets/motion/*.md", "docs/guide/*.md"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["assets/motion/videos/**", "assets/motion/exports/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "Open Science Stiftung (Open Science Foundation) and respective original rights holders"
+SPDX-License-Identifier = "LicenseRef-OSF-Website-Media"
+
+[[annotations]]
+path = ["docs/guide/index.html", "docs/guide/cover.png", "docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Open Science Stiftung (Open Science Foundation) and respective original rights holders"
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-OSF-Brand-Assets AND LicenseRef-OSF-Website-Media"
