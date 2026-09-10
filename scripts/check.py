@@ -15,7 +15,23 @@ ROOT = Path(__file__).resolve().parents[1]
 IGNORED = {'.git', '__pycache__', '.venv', 'node_modules', '.nuxt', '.output', '.data', 'dist'}
 FONT_SUFFIXES = {'.otf', '.ttf', '.woff', '.woff2', '.eot', '.odttf', '.ttc'}
 OFFICE_SUFFIXES = {'.pptx', '.potx', '.key', '.docx', '.dotx', '.xlsx', '.zip', '.pdf'}
-LICENCES = {'CC-BY-4.0', 'Apache-2.0', 'LicenseRef-OSF-Brand-Assets', 'MIT'}
+LICENCES = {'CC-BY-4.0', 'Apache-2.0', 'LicenseRef-OSF-Brand-Assets', 'MIT',
+            'LicenseRef-OSF-Website-Media'}
+
+def licence_parts(expression):
+    return expression.split(' AND ')
+
+def admitted_files(root):
+    result = {}
+    for path in ('assets/motion/manifest.json', 'docs/guide/manifest.json'):
+        for item in json.loads((root/path).read_text())['assets']:
+            name = item['path']
+            if name in result:
+                raise ValueError('Duplicate admitted file: '+name)
+            if not (root/name).resolve().is_relative_to(root.resolve()):
+                raise ValueError('Escaping admitted file: '+name)
+            result[name] = item
+    return result
 
 def matches(path, pattern):
     # REUSE-style * excludes slashes; ** spans directories.
@@ -43,10 +59,15 @@ def check(root=ROOT):
         errors.append('Unsupported REUSE version')
     rows = config.get('annotations', [])
     for row in rows:
-        if row.get('SPDX-License-Identifier') not in LICENCES:
+        if not set(licence_parts(row.get('SPDX-License-Identifier', ''))) <= LICENCES:
             errors.append('Unknown licence in REUSE.toml')
     manifest = json.loads((root/'assets/logo/manifest.json').read_text())
     approved_logos = {x['path']: x['sha256'] for x in manifest}
+    try:
+        admitted = admitted_files(root)
+    except (ValueError, KeyError, OSError) as exc:
+        errors.append('Invalid asset admission manifest: '+str(exc))
+        admitted = {}
     for p in content_files(root):
         name = p.relative_to(root).as_posix()
         data = p.read_bytes()
@@ -54,11 +75,12 @@ def check(root=ROOT):
             errors.append('Symlink not admitted: '+name)
         if p.suffix.lower() in FONT_SUFFIXES or data[:4] in (b'OTTO', b'wOFF', b'wOF2', b'ttcf', b'\x00\x01\x00\x00'):
             errors.append('Font binary prohibited: '+name)
-        if p.suffix.lower() in OFFICE_SUFFIXES or data[:4] == b'PK\x03\x04':
+        admitted_binary = name in admitted and p.suffix.lower() in {'.pdf', '.png', '.jpg', '.gif', '.mp4'}
+        if (p.suffix.lower() in OFFICE_SUFFIXES and not (admitted_binary and p.suffix.lower() == '.pdf')) or data[:4] == b'PK\x03\x04':
             errors.append('Office/archive/PDF file requires separate admission: '+name)
-        if p.suffix.lower() in {'.jpg', '.jpeg', '.webp', '.gif'}:
+        if p.suffix.lower() in {'.jpg', '.jpeg', '.webp', '.gif'} and not admitted_binary:
             errors.append('Photograph/image not admitted: '+name)
-        if p.suffix.lower() in {'.png', '.svg'} and name not in approved_logos:
+        if p.suffix.lower() in {'.png', '.svg'} and name not in approved_logos and not admitted_binary:
             errors.append('Unregistered artwork: '+name)
         if p.name == '.env' or p.name.startswith('.env.'):
             errors.append('Environment secrets file prohibited: '+name)
@@ -75,8 +97,20 @@ def check(root=ROOT):
         if licence is None:
             errors.append('Unclassified file: '+name)
             continue
-        if not (root/'LICENSES'/f'{licence}.txt').is_file():
-            errors.append('Missing licence text: '+licence)
+        for part in licence_parts(licence):
+            if not (root/'LICENSES'/f'{part}.txt').is_file():
+                errors.append('Missing licence text: '+part)
+        if name in admitted:
+            item = admitted[name]
+            if hashlib.sha256(data).hexdigest() != item['sha256']:
+                errors.append('Admitted asset differs from recorded source: '+name)
+            if licence != item['license']:
+                errors.append('Admitted asset mislicensed: '+name)
+            sidecar = p.with_name(p.name+'.license')
+            if not sidecar.exists() or ('SPDX-License-Identifier: '+licence) not in sidecar.read_text():
+                errors.append('Missing admitted asset licence sidecar: '+name)
+            if admitted_binary:
+                continue
         if name in approved_logos:
             if hashlib.sha256(data).hexdigest() != approved_logos[name]:
                 errors.append('Logo differs from authorised source: '+name)
@@ -118,6 +152,9 @@ def check(root=ROOT):
     for name in approved_logos:
         if not (root/name).exists():
             errors.append('Missing registered logo: '+name)
+    for name in admitted:
+        if not (root/name).is_file():
+            errors.append('Missing admitted asset: '+name)
     tokens = json.loads((root/'tokens/tokens.json').read_text())
     css = (root/'tokens/tokens.css').read_text()
     for name, value in tokens['colors'].items():

@@ -3,6 +3,15 @@
 
 # Changelog
 
+## 2026-09-10
+
+- Rename the repository to Open-Science-Foundation-brand-guide.
+- Publish the 26-page visual guide dated 10 September 2026, its text companion and build source.
+- Archive six original website animations, 18 rendered exports, five website videos, four posters and supporting motion source.
+- Add a runnable motion gallery, exact source hashes and explicit mixed-asset admission checks.
+- Preserve original logo bytes, commercial font boundaries, existing licence grants, selected default and existing public visibility. Record the mismatch with older private-visibility prose without asserting legal-review receipt.
+
+
 ## Protection configuration, 8 September 2026
 
 Confirmed read-only Actions permissions and disabled Actions PR approval. Added CODEOWNERS using existing administrators and a prepared main-branch ruleset. Recorded GitHub plan and private-repository restrictions; required reviews, branch protection and secret scanning are not yet enforced. Visibility remains private solely pending legal review.

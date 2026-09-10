@@ -11,3 +11,5 @@ node_modules/
 .data/
 
 /web-harness/starter/dist
+
+/assets/motion/dist

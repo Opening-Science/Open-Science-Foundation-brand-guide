@@ -1,0 +1,550 @@
+{
+  "edition": "2026-09-10",
+  "sourceRepository": "https://github.com/Opening-Science/homepage",
+  "sourceCommit": "282a767b33c2289f982d84a7e79d5373a1b34e7e",
+  "assets": [
+    {
+      "path": "assets/motion/source/app/components/layout/AppFooter.vue",
+      "source": "app/components/layout/AppFooter.vue",
+      "sha256": "5137db8b2e96e53bf03d31b7ccc25dab61574208a863c762234378c1a3dc00d6",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/layout/AppHeader.vue",
+      "source": "app/components/layout/AppHeader.vue",
+      "sha256": "2dc43805c73aba7625a715bd51bce7db1c64d72f2deb79536306aa133d617f40",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/layout/CookieConsent.vue",
+      "source": "app/components/layout/CookieConsent.vue",
+      "sha256": "46134da98661e03b3806be2d1988a5b53862fe7c11e9bfd41ccdc592ab65c02d",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/layout/MobileMenu.vue",
+      "source": "app/components/layout/MobileMenu.vue",
+      "sha256": "e1dd97481ff1148c1d61bca83aa836b836dcf014639ad0224d030214592dd52a",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/layout/NavDropdown.vue",
+      "source": "app/components/layout/NavDropdown.vue",
+      "sha256": "acbea4c32791fb054bc63d40091b0a55f17f07580c6b6adff06e63e7e1b27821",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/opentwin/OtApplications.vue",
+      "source": "app/components/opentwin/OtApplications.vue",
+      "sha256": "cf3193732a83e5202961ce7bf9b48ff5b65942ebd7677a1051a320db869a36b3",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/opentwin/OtButton.vue",
+      "source": "app/components/opentwin/OtButton.vue",
+      "sha256": "b442bb84b4e086884146ffeb19e0f3df674fc786da7435e5e6a9d42855571d4c",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/opentwin/OtMasthead.vue",
+      "source": "app/components/opentwin/OtMasthead.vue",
+      "sha256": "03e06841bf4a720099b461d5e0af681482f81bc9db0e2d981268fc53d7da60c4",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/opentwin/OtProblem.vue",
+      "source": "app/components/opentwin/OtProblem.vue",
+      "sha256": "063671896eddaf72cb9b5f582e49e5ff57e44133a16e443725d7a88a662b5706",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/ArticleLayout.vue",
+      "source": "app/components/section/ArticleLayout.vue",
+      "sha256": "404df5f343c7c47d6a50067043675fa997e43777703e3b127604b1f70109a769",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/HeroSection.vue",
+      "source": "app/components/section/HeroSection.vue",
+      "sha256": "b6a241c891b1385064a922fadf4d43f37f876cbe3861c3a71e034a824ee49d1e",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/LocationSection.vue",
+      "source": "app/components/section/LocationSection.vue",
+      "sha256": "d19f370b0b015656bf57733811a67ec6ac3ef45421875441da2c96b243b5c630",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/MediaCarousel.vue",
+      "source": "app/components/section/MediaCarousel.vue",
+      "sha256": "1ce594dfb7586a7762d2ef800814a30979ae63761632f703cfcd64e916a17c7a",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/MissionSection.vue",
+      "source": "app/components/section/MissionSection.vue",
+      "sha256": "8276b387d2c6b35d02667755736f846da728f3f2ef3f62468ceb4bd0ce7259b5",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/PersonCard.vue",
+      "source": "app/components/section/PersonCard.vue",
+      "sha256": "936cf890e4ab4657b36f9042e2da93036b74496b23e012e3425ae6f15e9e6bac",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/PostList.vue",
+      "source": "app/components/section/PostList.vue",
+      "sha256": "f61f3ef6e5389c5e7088fb705ffc31ae78cba14ebb246cd033aefb8edb88795c",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/section/ValuesSection.vue",
+      "source": "app/components/section/ValuesSection.vue",
+      "sha256": "c2a663f351c3c40972d4ae5ab079c170de04f8751bdb4de9b0e7a14fe37931f7",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/sketch/LogoMark.vue",
+      "source": "app/components/sketch/LogoMark.vue",
+      "sha256": "1837905990f3d86d122378e8eb19852ef33d490c9e9e303cf04fd775f2db3635",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/sketch/SketchCanvas.vue",
+      "source": "app/components/sketch/SketchCanvas.vue",
+      "sha256": "c7d04d6c46fdfcd877ed62bbe0dee1ed95a4a80d106da91087f5ae1fa6e36a82",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/components/ui/Tag.vue",
+      "source": "app/components/ui/Tag.vue",
+      "sha256": "19474ad15d11004908b0249525d2c1a80fc79a1749617c9e1883a3b4144bb87f",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/cubeGrid.ts",
+      "source": "app/composables/formations/cubeGrid.ts",
+      "sha256": "e522aacbc4a7888e61b57df9a7c4eb4b70bcbacce33789bc565bd5c5be932126",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/heroRings.ts",
+      "source": "app/composables/formations/heroRings.ts",
+      "sha256": "473a536d6d6bd2190d060632efdbc2d51d2758408319f23f89b9ba07bb5384b3",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/index.ts",
+      "source": "app/composables/formations/index.ts",
+      "sha256": "fcbf159a578449185f6d811200a4d1c3e519a2a21e65e85455014835e64805d0",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/rings.ts",
+      "source": "app/composables/formations/rings.ts",
+      "sha256": "35a4f02bfaa255780588e11b0d6cc8b322fbfb997ff4d0d48553580d4edf60d5",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/sphere.ts",
+      "source": "app/composables/formations/sphere.ts",
+      "sha256": "1b10f67d6aba13858a24b0decb978a0225037fdba1e2ed0252c4f83ada90ae34",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/formations/torusKnot.ts",
+      "source": "app/composables/formations/torusKnot.ts",
+      "sha256": "c72672df10fab415b0630e6c4a4a3bab533760b51cf71f63d6eac7658447fdc9",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/useP5Formation.ts",
+      "source": "app/composables/useP5Formation.ts",
+      "sha256": "b059ed0a81242122e898e970082bb0299f098be0cd1c88cfe452aacb9b0d413d",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/composables/usePrefersReducedMotion.ts",
+      "source": "app/composables/usePrefersReducedMotion.ts",
+      "sha256": "2d1e250782ab425c52577993469116d17eaa2f0febcada009b50ec0c639833c6",
+      "kind": "core",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/layouts/default.vue",
+      "source": "app/layouts/default.vue",
+      "sha256": "07852bf87b448438774ee34404b11542b22b4e019e733792e66a4e674a2b935a",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/funding.vue",
+      "source": "app/pages/funding.vue",
+      "sha256": "f2836969835064ea60716b3d9387ccd697381b472e9cf53289487ee4bd1a1ecc",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/governance.vue",
+      "source": "app/pages/governance.vue",
+      "sha256": "2ab9179fc38175f22a019b1662f5ed1a68e0ec1866e4a5d8aee846d4237e203b",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/index.vue",
+      "source": "app/pages/index.vue",
+      "sha256": "9f188d1ab374a9379c529ea130694205da2de368fab211b8f333eab530235889",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/institute/[pillar].vue",
+      "source": "app/pages/institute/[pillar].vue",
+      "sha256": "bf9c4c961846dfcf492138437756032828e1b848d848800e30d4a0664758a65a",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/institute/index.vue",
+      "source": "app/pages/institute/index.vue",
+      "sha256": "f413889fc7683657d517384148f4fcc995097c1c7d91d7e5e57bfce6f076ee12",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/institute/publications.vue",
+      "source": "app/pages/institute/publications.vue",
+      "sha256": "ae643327e241c80c35f7acc01addc352da2b9017dd805ed108a3e1d3ddb97c5e",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/mission.vue",
+      "source": "app/pages/mission.vue",
+      "sha256": "67f9f4c5c436675cc3fcb695f2ba3bb2305fc56a828dc718fe488b4fc111fb70",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/newsletter/confirmed.vue",
+      "source": "app/pages/newsletter/confirmed.vue",
+      "sha256": "b725d9f66f977aef313e1a22dafed9eb21dd9f75b39e2ad561788922255877a6",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/pages/people.vue",
+      "source": "app/pages/people.vue",
+      "sha256": "5a72c4be5fd270d0f28e699a396b56eef6cf46fde8c0925663542c164063d4fa",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/app/utils/ui.ts",
+      "source": "app/utils/ui.ts",
+      "sha256": "9972c3d668727916d9559e3ad2ab88841bf4356390a78652334ba7cdf568e3fb",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/data/values.ts",
+      "source": "data/values.ts",
+      "sha256": "4c075560c8b41f2a3ee2616ef4b9283e3afa40d79c0c24a37687fba225be0562",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion-tokens.json",
+      "source": "design/system/raw/opening-science-motion-tokens.json",
+      "sha256": "3326539c5cb3d39129eef4b1041e0945b5d7176f6e3b25c7f11b526251c1c6e5",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.css",
+      "source": "design/system/raw/opening-science-motion.css",
+      "sha256": "d861c9499e8adeabf48b9eb10a295c98773b6fcb41be858b86c18531493e5191",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.framer.js",
+      "source": "design/system/raw/opening-science-motion.framer.js",
+      "sha256": "cf194074d940edf7e632cda48a9d59979eca8fd31dc7b09ccd4d22fd3ed66254",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.gsap.js",
+      "source": "design/system/raw/opening-science-motion.gsap.js",
+      "sha256": "a0e7782faa67a8bf96a874ff7b6bef4946079b7a71bd94d9d3af63583a7c9f63",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.html",
+      "source": "design/system/raw/opening-science-motion.html",
+      "sha256": "c9985325354fe98d971ee0dca8934cd6d125a060b0e35b0d7293e4dd4d29fc5c",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.one.js",
+      "source": "design/system/raw/opening-science-motion.one.js",
+      "sha256": "d06005d18103257f576f606b8751405c202003f525e61ff6712d4fccd249d88b",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.tailwind.js",
+      "source": "design/system/raw/opening-science-motion.tailwind.js",
+      "sha256": "70703fd6f7da61f37f817f2a6ce87eb9ebba2c2d3d37d37ad0495c66f6ae57d2",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/source/design/system/raw/opening-science-motion.waapi.js",
+      "source": "design/system/raw/opening-science-motion.waapi.js",
+      "sha256": "c591d7f5165bc332b3f826b4d976b44b9d866c99715ae1e267b286879603e8ba",
+      "kind": "context",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/motion/videos/location-poster.jpg",
+      "source": "public/videos/location-poster.jpg",
+      "sha256": "513aa38fca079a68db2899bb98993f92872903e55d5ec266fe12b71b4e464dfd",
+      "kind": "poster",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/location.mp4",
+      "source": "public/videos/location.mp4",
+      "sha256": "f57b155dcfb27d0aed68351e4e0f1592788dc4cc0fe9f87cfe858eb5c3d362dc",
+      "kind": "video",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-microscope-hardware-poster.jpg",
+      "source": "public/videos/open-science-foundation-web-open-microscope-hardware-poster.jpg",
+      "sha256": "ffc3c51c6ee585097f9f10f18647ae90778db9302122e23ef7f606ae78bcaba6",
+      "kind": "poster",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-microscope-hardware.mp4",
+      "source": "public/videos/open-science-foundation-web-open-microscope-hardware.mp4",
+      "sha256": "d1651755f65b6b05e25acf490419af90454cfc79f072bcd090d470d59bbb9364",
+      "kind": "video",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-twin-hub-poster.jpg",
+      "source": "public/videos/open-science-foundation-web-open-twin-hub-poster.jpg",
+      "sha256": "1b75d0ff363aafb84c77b82631df720e318c8d0370051adada1bf595ac528f76",
+      "kind": "poster",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-twin-hub.mp4",
+      "source": "public/videos/open-science-foundation-web-open-twin-hub.mp4",
+      "sha256": "875e4ddcc5d543e926f5108c105acd602f27173839fab82f9ebb78d009b476bc",
+      "kind": "video",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-twin-lab-poster.jpg",
+      "source": "public/videos/open-science-foundation-web-open-twin-lab-poster.jpg",
+      "sha256": "445833e83f948c450fa6149a01fb5e7a910cd6c6e4beabebb2adc9361055a556",
+      "kind": "poster",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/open-science-foundation-web-open-twin-lab.mp4",
+      "source": "public/videos/open-science-foundation-web-open-twin-lab.mp4",
+      "sha256": "03093c790692558f0224ddc7e9122b37768053543dc2068abda540b589775931",
+      "kind": "video",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/videos/swiss-gathering-field-sensor.mp4",
+      "source": "public/videos/swiss-gathering-field-sensor.mp4",
+      "sha256": "776ca8b2ee56f6fd45a5ca3628f554db1c3012321b27acc8e9c7669af9c9c3b9",
+      "kind": "video",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/collaboration-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "ca040a29f32429ec910b0f22f89b7b134365c1893809fc5fa185d09bfb77d2fd",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/collaboration.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "8bcc2338a7904ba2626b2710348f6908c72413c738a9c16ad56e3637c23d28c7",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/collaboration.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "f7ba6cb03ddc37495d65c6b72be3f2ef5eb8c4532aa403ad65dc62d73bf15e68",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/hero-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "7b579f4bc5b92822043b585c7051693651469bd690f3afa7a2a8e294124bccc5",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/hero.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "91516180a704cd4e066a4df6f1026ac19479406e8bed8430bc1b5acd26fa6c83",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/hero.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "93908b7ddd247152c63d2f780515d737f88eda8cba66b2eaa65bf76b96ca4c72",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/logo-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "001dd1431016fb4735996e4dc0541ab5455564cf77b494fd27bf7b3a91886474",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/logo.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "7b8308a0de6b761ee85ee8f276100609f9da95cd61157f488d83f3bbe75fa6b9",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/logo.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "09c8016bb02167719ec0a36ceeb335fc976518e4e94c1623c3661bf856067631",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/openness-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "a86b986945ed39975b5f0105974c05080efebb00161f3de7e3d2dd61982bdc0c",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/openness.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "96b6c1c3c8e23c7775e79ef59d923843ac3bb5e40303f12ee0b13e732d6781ea",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/openness.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "0fc2cafad1cc65d091b4404d59762f9802e46ef0cbfb557c057c142edd2d58cf",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/reproducibility-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "d44eed5246ae1b443ca8508eee9ddca33bf28deb8ede8f0049f61f7d276e4619",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/reproducibility.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "3662a00325eaf9c2bffb9e6b818c6da46d441bfe5d09caab8bd6832266d8a611",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/reproducibility.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "d0069f1f9eb922c2941f1b97e1db89839c173ca87dde26cb6950d0d6a3a81a2d",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/transparency-still.png",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "8ce4dab6490dba2b98cd968cb1e4de02a7982ea043b0c350b46094d16a6078fb",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/transparency.gif",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "810f6e358b3abe3382e3bb7820b343c5627e4f6d27d7923ff379bd999ad6429a",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    },
+    {
+      "path": "assets/motion/exports/transparency.mp4",
+      "source": "Rendered from the registered original source using preview capture mode",
+      "sha256": "299e8f943776398d82ece3b768d98539b4f77ee0a7f4f49025b977107df39ecc",
+      "kind": "capture",
+      "license": "LicenseRef-OSF-Website-Media"
+    }
+  ],
+  "exports": {
+    "fps": 20,
+    "durationSeconds": 10.05,
+    "frames": 201,
+    "background": "#ffffff",
+    "captureSize": {
+      "formations": [
+        600,
+        600
+      ],
+      "logo": [
+        160,
+        160
+      ]
+    },
+    "stillTimeSeconds": 2.5,
+    "loopNote": "Preview exports repeat the ten-second recording. State boundaries are not guaranteed seamless. The live source is authoritative."
+  }
+}

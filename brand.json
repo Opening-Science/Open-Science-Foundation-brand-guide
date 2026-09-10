@@ -20,5 +20,15 @@
   "sourceThemeSha256": "6a538161682b8a744bceb65e319ace9f7185b849e27b8d3aeb6b9ab457256646",
   "privateReason": "pending_legal_review",
   "legalReviewStatus": "awaiting_receipt",
-  "selectionDate": "2026-09-08"
+  "selectionDate": "2026-09-08",
+  "observedVisibility": "public",
+  "visibilityCheckedOn": "2026-09-10",
+  "editionPublication": {
+    "date": "2026-09-10",
+    "ownerRequested": true,
+    "scope": "Dated visual guide and complete website motion assets",
+    "note": "Existing public GitHub visibility preserved. Historical intent and legal-review receipt fields are not evidence of current access controls."
+  },
+  "visualGuide": "docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf",
+  "motion": "assets/motion/README.md"
 }

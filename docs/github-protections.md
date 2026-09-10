@@ -3,7 +3,7 @@
 
 # GitHub protection status
 
-Checked 8 September 2026. The repository remains private solely pending receipt of the owner's legal review. Plan restrictions are not an additional reason for keeping it private, and do not authorise changing visibility or purchasing an upgrade.
+Historical settings check: 8 September 2026, when the repository was private. Update on 10 September 2026: GitHub is already public. The plan limitations below describe the historical check, not the current availability of protections. This edition does not change repository protection settings or assert legal-review receipt.
 
 | Control | Current state |
 |---|---|

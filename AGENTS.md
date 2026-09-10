@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# Agent instructions for osf-brand
+# Agent instructions for Open-Science-Foundation-brand-guide
 
 ## Scope and authority
 
@@ -35,12 +35,16 @@ Use `codex/` for a new branch unless the user specifies another name. Summarise 
 
 ## Access and release
 
-The repository remains private solely until the owner receives legal review. Do not invent other reasons or additional publication holds, including design-option selection. The implementation review in this repo is not the awaited legal review. Do not infer that the review has been received. Authenticated read access should use the host's normal GitHub connector or credential manager, with access limited to this repository where supported. Never place a credential in a URL, prompt, tracked file or log.
+GitHub visibility was observed as public on 10 September 2026, before this edition was published. The owner explicitly requested this dated PDF and complete website motion archive. Earlier private-visibility prose was stale. Preserve the existing public visibility for this task; do not infer that the outstanding legal review has been received. Authenticated read access should use the host's normal GitHub connector or credential manager, with access limited to this repository where supported. Never place a credential in a URL, prompt, tracked file or log.
 
-Private access is not a confidentiality licence: CC BY and Apache recipients retain their licence rights. The host's permission to read does not independently authorise this agent to redistribute or publish. Do not make the repo public, configure Pages, publish releases or send files externally unless the user explicitly requests that action. Before a future public release, follow `docs/public-release.md` and preserve open-licence rights already granted.
+Private access is not a confidentiality licence: CC BY and Apache recipients retain their licence rights. The host's permission to read does not independently authorise this agent to redistribute or publish. Do not change repository visibility, configure Pages, publish releases or send files externally without a user instruction. Follow `docs/public-release.md` and preserve open-licence rights already granted.
 
 For repeatable work, report the actual commit or tag used. An AGENTS.md or SKILL.md file is guidance only when loaded by the agent host or the user; do not claim automatic installation or universal discovery.
 
 For the website package, read web-harness/README.md and run the starter checks.
 The canonical stylesheet and copied components retain their MIT notices.
 A starter build adds Node 22.12+ to the Python-only brand validation requirements.
+
+## Dated visual guide and motion archive
+
+The owner authorised the 10 September 2026 PDF and complete website motion archive. These exact files are admitted through `docs/guide/manifest.json` and `assets/motion/manifest.json`. Preserve the existing restricted media rights; do not treat source-code licensing as media clearance. The admission does not authorise arbitrary Office kits, fonts, photos or archives. See `assets/motion/PROVENANCE.md` and `docs/guide/README.md`. Run `python3 scripts/check-motion.py` as well as the existing checks.
