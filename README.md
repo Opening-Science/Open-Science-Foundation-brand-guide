@@ -24,7 +24,7 @@ GitHub access controls do not turn the CC BY or Apache terms into confidentialit
 
 ## Visual guide · 10 September 2026
 
-[Download the 26-page PDF](docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf) · [Readable text](docs/brand-guide-2026-09-10-text.md) · [Build source](docs/guide/README.md)
+[Download the 27-page PDF](docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf) · [Readable text](docs/brand-guide-2026-09-10-text.md) · [Build source](docs/guide/README.md)
 
 [![Open Science Foundation brand guide cover](docs/guide/cover.png)](docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf)
 

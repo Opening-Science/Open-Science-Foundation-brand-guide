@@ -3,7 +3,7 @@
 
 # Open Science Foundation brand guide
 
-Text companion to the 26-page visual edition dated 10 September 2026.
+Text companion to the 27-page visual edition dated 10 September 2026.
 
 ## Page 01
 
@@ -62,7 +62,7 @@ Digital, print, social and partnerships
 Working files
 Production, quick reference and sources
 
-25 to 26
+25 to 27
 
 DEFAULT / 01 OPEN EDITORIAL. SELECTED 8 SEPTEMBER 2026. THIS EDITION / 10 SEPTEMBER 2026.
 
@@ -97,7 +97,7 @@ Work through shared infrastructure.
 Reproducibility
 Enable others to build on the work.
 
-PUBLIC POSITIONING AND VALUES / OPENING.SCIENCE. SOURCES AND DESIGN CREDITS ON PAGE 26.
+PUBLIC POSITIONING AND VALUES / OPENING.SCIENCE. SOURCES ON PAGE 26. FULL DESIGN ATTRIBUTION ON PAGE 27.
 
 BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
 03
@@ -786,7 +786,7 @@ BUILT FROM THE EXISTING IDENTITY
 An identity to work with.
 
 Edition 01 translates the existing OSF brand system into a visual reference, dated 10 September 2026.
-The 26-page format and subject sequence take inspiration from the supplied ISCC guide. The identity, copy, artwork and practical rules here come from OSF sources and this edition’s clearly labelled application studies.
+The 27-page format and subject sequence take inspiration from the supplied ISCC guide. The identity, copy, artwork and practical rules here come from OSF sources and this edition’s clearly labelled application studies.
 DESIGN CREDITS
 Visual identity: Martin Golombek.Identity realisation and founding website graphic design: Tom Walsh / Prolog.Credits follow the OSF People page.
 RIGHTS & EDITION
@@ -794,24 +794,38 @@ Guide prose: CC BY 4.0. Original logo artwork retains the OSF Brand Assets Permi
 
 01 / BRAND AUTHORITY
 OSF brand repository
-Open-Science-Foundation-brand-guide
-Base commit e97831e. Guide, tokens and original logos.
+[Open-Science-Foundation-brand-guide](https://github.com/Opening-Science/Open-Science-Foundation-brand-guide)Base commit e97831e. Guide, tokens and original logos.
 
 02 / WEBSITE SOURCE
 opening.science
-Foundation website
- · People and credits
-Source: Opening-Science/homepage @ 282a767.Canonical theme unchanged from the recorded snapshot.
+[Foundation website](https://opening.science) · [People and credits](https://opening.science/people/)Source: Opening-Science/homepage @ 282a767.Canonical theme unchanged from the recorded snapshot.
 
 03 / ACCESSIBILITY
 WCAG 2.2
-Text contrast, SC 1.4.3
-Non-text contrast, SC 1.4.11
+[Text contrast, SC 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)[Non-text contrast, SC 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
 
 04 / TYPE
 Maxitype & Dinamo
-Selecta / Maxitype EULA
-ABC Diatype Semi Mono / Dinamo
+[Selecta / Maxitype EULA](https://maxitype.com/eula/)[ABC Diatype Semi Mono / Dinamo](https://abcdinamo.com/licenses)
 
 BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
 26
+
+## Page 27
+
+OPEN SCIENCE FOUNDATION / IDENTITY SYSTEM
+DESIGN / ATTRIBUTION
+
+THE ARTISTS BEHIND THE IDENTITY
+Design & visual arts
+
+We would like to acknowledge the artists behind our founding website.
+Scientific Knowledge as a Global Commons
+Under this title, the Basel-based visual artist [Martin Golombek](https://martingolombek.net/en) created the foundation’s visual identity. At its heart is the animated logo, which embodies an open and continuous process, the way this foundation understands science itself.
+
+The identity was realized, and the website’s graphic design developed, by [Tom Walsh](https://prolog.work/), the designer behind Prolog, a design studio in Basel, Switzerland.
+
+ATTRIBUTION / [OPENING.SCIENCE / PEOPLE](https://opening.science/people/). ADDED 11 SEPTEMBER 2026.
+
+BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
+27
