@@ -12,3 +12,11 @@
 - Dependencies: motion preview `npm audit` reports zero vulnerabilities after selecting patched Vite 7.3.6.
 - Repository checks: licence coverage, logo provenance, exact media admission, source hashes, selected default, token consistency, relative links, web-harness distribution and motion inventory pass. All 16 Python unit tests pass, including new cases for unregistered PDFs, changed media, incorrect media licensing and missing exports.
 - Publication: GitHub was already public when inspected. The owner requested the repository rename, dated PDF and complete website motion archive. No repository visibility change or legal-review receipt is inferred.
+
+## Attribution update, 11 September 2026
+
+- Added page 27 with the owner-supplied Design & visual arts attribution, linking Martin Golombek, Tom Walsh and the OSF People page. Updated contents references and the Markdown companion, retaining external links in the companion.
+- Regenerated the 27-page PDF from the committed source with licensed local Selecta and ABC Diatype Semi Mono. All images resolved; browser layout checks found no content/footer collisions. Rendered every page with Poppler and inspected the contact sheet and attribution page.
+- Ghostscript outlined the distributed PDF; `pdffonts` reports no font resources. PDF link annotations retain both artist URLs and the People-page URL.
+- Updated the PDF admission hash and page count. The original edition date and filename are preserved; the attribution page records its addition date.
+- Comparison with the original rendered PDF found intended text changes on pages 2, 3 and 26. Pages 17 and 22 have minor Chromium line-rendering differences in their illustrations; their source and layout are unchanged. The cover render is unchanged. All three repository check scripts and all 16 unit tests pass.

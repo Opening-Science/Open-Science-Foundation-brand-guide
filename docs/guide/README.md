@@ -3,13 +3,13 @@
 
 # Build the dated visual guide
 
-The published [PDF](../Open-Science-Foundation-brand-guide-2026-09-10.pdf) is the 26-page edition dated 10 September 2026. [Text companion](../brand-guide-2026-09-10-text.md) provides readable, editable content; [index.html](index.html) and [guide.css](guide.css) are the print source.
+The published [PDF](../Open-Science-Foundation-brand-guide-2026-09-10.pdf) is the 27-page edition dated 10 September 2026. [Text companion](../brand-guide-2026-09-10-text.md) provides readable, editable content; [index.html](index.html) and [guide.css](guide.css) are the print source.
 
 ## Reproduce
 
 1. Use a licensed local installation of Selecta Regular/Medium/Bold and ABC Diatype Semi Mono Regular/Bold. The build must not substitute fonts silently.
 2. Run `python3 docs/guide/build.py` to regenerate HTML, CSS and the text companion.
-3. Open `docs/guide/index.html` locally with gstack browse. Confirm both typefaces are loaded, images resolve, and all 26 pages fit.
+3. Open `docs/guide/index.html` locally with gstack browse. Confirm both typefaces are loaded, images resolve, and all 27 pages fit.
 4. Print backgrounds using the CSS page size. With `B` set to the installed gstack browse executable:
 
 ```sh

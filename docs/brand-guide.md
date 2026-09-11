@@ -3,7 +3,7 @@
 
 # OSF brand guide
 
-Visual edition: [26-page PDF dated 10 September 2026](Open-Science-Foundation-brand-guide-2026-09-10.pdf). [Text companion](brand-guide-2026-09-10-text.md) and [motion archive](../assets/motion/README.md).
+Visual edition: [27-page PDF dated 10 September 2026](Open-Science-Foundation-brand-guide-2026-09-10.pdf). [Text companion](brand-guide-2026-09-10-text.md) and [motion archive](../assets/motion/README.md).
 
 Status: 01 Open editorial selected by the owner as the fixed default on 8 September 2026. Apply it across all formats unless explicitly directed otherwise. Options 02 to 05 remain alternatives. This kit translates existing website patterns into presentation, social and document formats. It does not change the website or admit new website components.
 
