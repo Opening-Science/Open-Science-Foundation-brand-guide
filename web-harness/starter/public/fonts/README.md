@@ -10,6 +10,6 @@ then provide the files through your authorised local or deployment process.
 This directory ignores font files in git. Never force-add them to the package.
 
 Without these files the browser falls back to system fonts. That is useful
-for a functional smoke check, but cannot establish OSF typography fidelity.
+for a functional smoke check, but cannot establish brand typography fidelity.
 Verify loaded font faces and requests before visual review. Distribution of
 this source grants no font, logo or trademark rights.

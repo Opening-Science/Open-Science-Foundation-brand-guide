@@ -8,14 +8,14 @@
 | Guideline prose, documentation and this README | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) |
 | Tokens, CSS, machine-readable recipes, agent skills, agent instructions, validation code, administrative metadata and CI configuration | [Apache-2.0](LICENSES/Apache-2.0.txt) |
 | Copied website source, component specs and derived web tokens in `web-harness/` | [MIT](LICENSES/MIT.txt); exact scope in REUSE.toml |
-| Logo and wordmark artwork in `assets/logo/` | [OSF Brand Assets Permission](LICENSES/LicenseRef-OSF-Brand-Assets.txt), **not an open licence**; see [TRADEMARK.md](TRADEMARK.md) |
+| Logo and wordmark artwork in `assets/logo/` | [Brand Assets Permission](LICENSES/LicenseRef-OSF-Brand-Assets.txt), **not an open licence**; see [TRADEMARK.md](TRADEMARK.md) |
 | Archived website motion artwork, videos and posters | Existing rights retained; [media notice](LICENSES/LicenseRef-OSF-Website-Media.txt) |
 | Dated visual PDF and cover | Composite: CC BY prose plus separately scoped logo and media rights |
 | Commercial fonts, other photographs and the original Office template kit | Not included or licensed by this repository; see [external assets](docs/external-assets.md) |
 
 [LICENSE](LICENSE) is the scope index. File headers, adjacent `.license` notices and [REUSE.toml](REUSE.toml) identify the applicable terms. There is no blanket licence for the whole repository.
 
-Guidelines for the Open Science Foundation (OSF), operated by Open Science Stiftung, based on [opening.science](https://opening.science). The Open Science Institute (OSI) is funded and governed by OSF.
+Guidelines for the Open Science Foundation, operated by Open Science Stiftung, based on [opening.science](https://opening.science). The Open Science Institute (OSI) is funded and governed by the foundation. Never abbreviate the foundation to “OSF”: search engines read it as the Open Science Framework (osf.io). See [Voice](docs/brand-guide.md#voice).
 
 **Repository visibility observed 10 September 2026: public.** The dated visual guide and motion archive are published at the owner’s explicit request. Older private-visibility wording was stale. The legal-review receipt status remains unverified and is still recorded as `awaiting_receipt`; publication does not assert that review was completed.
 

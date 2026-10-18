@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# OSF website harness
+# Open Science Foundation website harness
 
 Version 0.2.0 packages the existing website design system for Nuxt 4, Vue 3
 and Tailwind 4. It includes a runnable starter, seven unchanged upstream
@@ -29,7 +29,7 @@ Replace the example destination above with your chosen new directory. Do not
 copy over an existing project without reviewing the changes. Follow the
 [starter README](starter/README.md) and explicitly load its
 [agent rules](starter/AGENTS.md). A repository does not automatically install
-skills in every host. The [OSF web skill](../skills/osf-web/SKILL.md) is the
+skills in every host. The [web skill](../skills/osf-web/SKILL.md) is the
 entry point when working from this brand repository.
 
 The source and all runtime dependencies are present or declared in the
@@ -69,7 +69,7 @@ Update through a reviewed PR: choose an admitted upstream commit, copy only
 listed files, resolve dependencies, document adaptations, regenerate tokens,
 refresh both manifests and repeat the clean-install and visual checks. Keep
 one authoritative theme. Consumers pin a reviewed version; updates are
-explicit. A downstream extension is not automatically an OSF admission.
+explicit. A downstream extension is not automatically admitted by the foundation.
 
 ## Licences and assets
 

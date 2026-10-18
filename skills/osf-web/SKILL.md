@@ -1,12 +1,12 @@
 ---
 name: osf-web
-description: Build and verify Nuxt websites using the versioned OSF website harness, admitted components and governed design-extension workflow.
+description: Build and verify Nuxt websites using the versioned Open Science Foundation website harness, admitted components and governed design-extension workflow.
 ---
 
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# Build an OSF website
+# Build an Open Science Foundation website
 
 Read the [brand guide](../../docs/brand-guide.md),
 [web harness](../../web-harness/README.md) and

@@ -10,6 +10,6 @@
     <NuxtPage />
   </main>
   <footer class="container-main mt-100 pb-40 font-mono text-sm text-gray">
-    An example built with the OSF website harness.
+    An example built with the Open Science Foundation website harness.
   </footer>
 </template>

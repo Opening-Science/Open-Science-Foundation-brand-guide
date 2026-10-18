@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# OSF web design reference
+# Open Science Foundation web design reference
 
 The canonical source is app/assets/css/main.css. Generated tokens.json and
 css-variables.css are descriptions of that source, not independent themes.
@@ -27,7 +27,7 @@ Black is #1d1d1d; white is #fff. Cream-light and cream are surfaces, gray
 and cream-darker are secondary text subject to contrast review. Blue is the
 existing interaction and identity accent. Blue-ink is for readable static
 blue text and citation links. Red is scoped to OpenTwin and is unavailable
-for ordinary OSF compositions. No shadows or gradients are admitted.
+for ordinary compositions of the foundation. No shadows or gradients are admitted.
 
 Radii use the admitted md, xl and 2xl theme tokens, rounded-full for pills,
 and the actively allowlisted rounded-[9px] button recipe. Do not use default

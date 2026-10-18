@@ -1,10 +1,10 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# OSF website starter
+# Open Science Foundation website starter
 
 Nuxt 4 / Vue 3 / Tailwind 4, with seven admitted components and the canonical
-OSF website stylesheet. This is an example composition and a basis for new
+website stylesheet of the foundation. This is an example composition and a basis for new
 pages. No fonts, logos, media, analytics or publication credentials are bundled.
 
 ## Run

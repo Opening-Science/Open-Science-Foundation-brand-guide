@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# OSF website motion assets
+# Open Science Foundation website motion assets
 
 Edition: **10 September 2026**. All six procedural brand animations are included, with original source, convenient recorded exports and a runnable gallery. The five website videos and four existing video posters are archived separately.
 
@@ -32,7 +32,7 @@ npm run dev
 
 Open the local URL printed by Vite. The gallery uses the exact original Vue components and p5 formation engine. Hover the compact logo to cycle its formations. The pause button controls gallery playback. Operating-system reduced-motion preferences retain the original source behaviours. `npm run build` verifies a portable relative-path build in ignored `dist/`.
 
-Selecta and ABC Diatype Semi Mono are resolved only from a licensed local installation. No font binaries are included. If fonts are absent, gallery text uses an explicitly documented system fallback for technical inspection; it is not an approved OSF design substitution. The animation canvases have no font dependency.
+Selecta and ABC Diatype Semi Mono are resolved only from a licensed local installation. No font binaries are included. If fonts are absent, gallery text uses an explicitly documented system fallback for technical inspection; it is not an approved design substitution. The animation canvases have no font dependency.
 
 ## Files
 

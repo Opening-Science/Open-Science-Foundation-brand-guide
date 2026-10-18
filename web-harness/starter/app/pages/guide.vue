@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Using the website starter',
-  description: 'How to compose pages and verify them against the admitted OSF website design.',
+  description: 'How to compose pages and verify them against the admitted Open Science Foundation website design.',
 })
 </script>
 

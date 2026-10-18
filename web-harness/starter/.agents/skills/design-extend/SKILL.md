@@ -1,6 +1,6 @@
 ---
 name: design-extend
-description: Extend the OSF website starter through reuse checks, reviewed lab variants and separately approved component specifications.
+description: Extend the Open Science Foundation website starter through reuse checks, reviewed lab variants and separately approved component specifications.
 ---
 
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
@@ -44,5 +44,5 @@ On a codex/ branch, add approved tokens to main.css, run design:tokens, add
 approved exceptions, implement the element and update its documentation.
 Remove the lab page. Run all checks in AGENTS.md and the visual loop. Open a
 focused PR with the spec, code, regenerated tokens and verification evidence.
-A local approval does not grant upstream OSF admission. Request that through
+A local approval does not grant upstream admission by the foundation. Request that through
 the upstream design process. Do not merge or publish unless authorized.

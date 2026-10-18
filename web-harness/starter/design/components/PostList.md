@@ -5,7 +5,7 @@
 
 ## Purpose
 The index treatment for the News and Research section pages : Variant A "Ledger"
-(chosen at Gate 1). A typographic, card-free list that suits OSF's text-forward,
+(chosen at Gate 1). A typographic, card-free list that suits the foundation's text-forward,
 image-light content. One component serves both sections; content differs, layout
 does not.
 

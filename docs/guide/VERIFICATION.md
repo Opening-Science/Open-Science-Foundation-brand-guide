@@ -15,8 +15,15 @@
 
 ## Attribution update, 11 September 2026
 
-- Added page 27 with the owner-supplied Design & visual arts attribution, linking Martin Golombek, Tom Walsh and the OSF People page. Updated contents references and the Markdown companion, retaining external links in the companion.
+- Added page 27 with the owner-supplied Design & visual arts attribution, linking Martin Golombek, Tom Walsh and the foundation's People page. Updated contents references and the Markdown companion, retaining external links in the companion.
 - Regenerated the 27-page PDF from the committed source with licensed local Selecta and ABC Diatype Semi Mono. All images resolved; browser layout checks found no content/footer collisions. Rendered every page with Poppler and inspected the contact sheet and attribution page.
 - Ghostscript outlined the distributed PDF; `pdffonts` reports no font resources. PDF link annotations retain both artist URLs and the People-page URL.
 - Updated the PDF admission hash and page count. The original edition date and filename are preserved; the attribution page records its addition date.
 - Comparison with the original rendered PDF found intended text changes on pages 2, 3 and 26. Pages 17 and 22 have minor Chromium line-rendering differences in their illustrations; their source and layout are unchanged. The cover render is unchanged. All three repository check scripts and all 16 unit tests pass.
+
+## Naming update, 18 October 2026
+
+- Replaced the "OSF" abbreviation for the Open Science Foundation in the guide source with the full name or "the foundation", following the owner's naming rule of 8 October 2026. Page 4 now states the rule. The edition date and filename are preserved.
+- Regenerated `index.html`, `guide.css` and the text companion with `python3 docs/guide/build.py`. Regenerated the 27-page PDF from the committed source with licensed local Selecta and ABC Diatype Semi Mono. All images resolved and browser layout checks found no content overflow.
+- Ghostscript 10.04.0 outlined the distributed PDF; `pdffonts` reports no font resources. The PDF keeps all 17 link annotations.
+- Comparison with the previous PDF found intended text changes on pages 2, 4, 7, 13, 15, 16, 24 and 26. Page 17 has a minor rendering difference in its illustration; its source is unchanged. Page 1 is unchanged, so `cover.png` was not regenerated.

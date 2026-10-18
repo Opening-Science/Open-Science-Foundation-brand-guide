@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: MIT -->
 
-# Reusable OSF website harness
+# Reusable Open Science Foundation website harness
 
 Status: publication proposal, 8 September 2026. This document does not change
 the website, admit design vocabulary, or publish a repository.
@@ -90,7 +90,7 @@ repository does not automatically install a skill into every agent.
 
 Do not copy the website's complete app configuration. A downstream website
 must set its own identity, canonical URLs, analytics, forms and deployment.
-Source components that import OSF people data, analytics or translations
+Source components that import the foundation's people data, analytics or translations
 need those dependencies resolved before they can be called portable.
 
 ## What “follows the design exactly” means
@@ -99,7 +99,7 @@ The supported promise is composition from a pinned set of admitted design
 rules and components, with automated checks and visual review. Tokens and a
 prompt alone cannot guarantee identical layout, typography or behavior.
 
-For faithful OSF typography, the consumer needs appropriately licensed
+For faithful brand typography, the consumer needs appropriately licensed
 Selecta and ABC Diatype Semi Mono webfonts. Missing fonts must be reported;
 a fallback rendering is not evidence of visual fidelity.
 
@@ -182,4 +182,4 @@ rerun verification. Do not silently track the website's default branch.
 Keep one source of authority: website changes enter through its existing
 admission workflow, then flow into the next package version. A consumer's
 new design vocabulary is a proposal for that process, not automatically an
-OSF-approved addition.
+addition approved by the foundation.

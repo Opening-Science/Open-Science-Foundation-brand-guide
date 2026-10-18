@@ -27,6 +27,6 @@ The distribution PDF has outlined text and is not a tagged accessible PDF. Use t
 
 ## Edition scope
 
-The supplied ISCC PDF informed the landscape format and subject sequence. It is not copied into this repository. The OSF website theme, existing guide and original logos control the identity. Application studies are labelled illustrations; this edition does not claim to deliver the external editable Office kit.
+The supplied ISCC PDF informed the landscape format and subject sequence. It is not copied into this repository. The Open Science Foundation website theme, existing guide and original logos control the identity. Application studies are labelled illustrations; this edition does not claim to deliver the external editable Office kit.
 
 Page canvas: 1200 by 750 CSS pixels. Chromium's printed page measures 900 by 563.04 points. Prose is CC BY 4.0; artwork, media and fonts retain their separate rights. The generated HTML/PDF are composite works, not wholly open-licensed assets.
