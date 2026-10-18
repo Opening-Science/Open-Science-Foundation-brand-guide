@@ -159,7 +159,7 @@ def check(root=ROOT):
     css = (root/'tokens/tokens.css').read_text()
     for name, value in tokens['colors'].items():
         if name == 'red':
-            continue # OpenTwin-scoped token is intentionally excluded from OSF CSS.
+            continue # OpenTwin-scoped token is intentionally excluded from the brand CSS.
         if f'--osf-{name}: {value};' not in css:
             errors.append('CSS token mismatch: '+name)
     if tokens['fonts']['mono'] != 'ABC Diatype Semi Mono' or "--osf-font-mono: 'ABC Diatype Semi Mono';" not in css:

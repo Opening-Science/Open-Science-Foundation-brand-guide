@@ -71,7 +71,7 @@ function checkCSS(file, css) {
     if (dimensional && !geometry && /\d%/.test(value)) report(file, `Raw CSS percentage in ${property}: ${value}`)
     if (property === 'line-height' && /^(?:\d*\.)?\d+$/.test(value) && Number(value) !== 0) report(file, `Raw line-height: ${value}`)
     if (property === 'font-family' && !/^(?:var\(--font-[\w-]+\)|inherit)$/.test(value)) report(file, `Unadmitted font family: ${value}`)
-    if (property === 'box-shadow' && value !== 'none') report(file, 'The OSF theme defines no shadow tokens')
+    if (property === 'box-shadow' && value !== 'none') report(file, 'The foundation theme defines no shadow tokens')
   }
 }
 // Mirrors design-check.mjs checks (a) and (c). That scanner resolves its tree
@@ -145,7 +145,7 @@ for (const file of srcDirs.flatMap(d => walk(join(root, d)))) {
       }
       report(file, `Radius outside @theme: ${token}`)
     }
-    if (/\b(?:text|bg|border|ring|fill|stroke)-red\b/.test(withoutLineComments)) report(file, 'The red token is reserved for OpenTwin, outside this OSF starter')
+    if (/\b(?:text|bg|border|ring|fill|stroke)-red\b/.test(withoutLineComments)) report(file, 'The red token is reserved for OpenTwin, outside this starter')
     // design-check.mjs check (e) keeps the quarantined lab unreferenced, but
     // only under app/. Shipping code elsewhere needs the same containment.
     if (!upstreamScans(rel) && /_lab\b/.test(withoutLineComments)) report(file, 'Reference to the design lab from shipping code')

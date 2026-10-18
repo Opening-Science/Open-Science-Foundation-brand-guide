@@ -83,8 +83,8 @@
     "source": "design/components/PostList.md",
     "destination": "starter/design/components/PostList.md",
     "sourceSha256": "60d4885fc7d912f5c30240a8ed70fa2b5ebffabb397954aaff58900f8faae6b2",
-    "sha256": "8c33df588a16f46bc3cfac2cb079ff0f0869467ed79129adf463d1418d5ffde9",
-    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sha256": "8a0bd8f021836f02e9180f4855b8962791603198003b2992ab11048e24e10203",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only; foundation naming written out instead of the OSF abbreviation",
     "sourceCommit": "4b30b2ec662b1fc71f6982041b8346abddf96417"
   },
   {
@@ -139,8 +139,8 @@
     "source": "design/HARNESS-PUBLICATION.md",
     "destination": "SPEC.md",
     "sourceSha256": "c1ed5368454ca8405f888feb4dfdd4651913b782d2cb382fb19f7da381fb7780",
-    "sha256": "caa9eda14d65e1248f019210f0b38c62becb1bed4cc85dc370cde688c0fc66a8",
-    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only",
+    "sha256": "6af66a24c9421f256890e46d9a3ad0dd923d75723ce11d7cc422fc8217a68f01",
+    "adaptation": "MIT attribution header added; long-dash punctuation normalized in documentation only; foundation naming written out instead of the OSF abbreviation",
     "sourceCommit": null,
     "sourceNote": "Original proposal authored for this task; not part of the pinned upstream commit."
   },

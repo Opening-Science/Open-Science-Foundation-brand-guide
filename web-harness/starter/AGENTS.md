@@ -1,10 +1,10 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# OSF website composition rules
+# Open Science Foundation website composition rules
 
 Read design/system/ai-design-system.md and the relevant design/page-specs file.
-This Nuxt 4 / Vue 3 / Tailwind 4 starter carries a reviewed subset of the OSF
+This Nuxt 4 / Vue 3 / Tailwind 4 starter carries a reviewed subset of the foundation's
 website system. app/assets/css/main.css is the local canonical snapshot.
 The upstream authority is Opening-Science/homepage. Update snapshots through
 reviewed package releases; do not silently fetch its default branch.
@@ -25,9 +25,11 @@ reduced motion. The imported SectionIntro blue eyebrow is an inherited
 contrast limitation, not a general accessible body-text color. Do not claim
 unqualified WCAG compliance from the token checker.
 
-Use factual copy and no long dashes. Distinguish the Open Science Foundation
-(OSF) from the Open Science Institute (OSI). Do not invent endorsements,
-people, citations or project claims. OSF naming and marks require the
+Use factual copy and no long dashes. Write "Open Science Foundation" in full
+on first mention, then "the foundation". Never abbreviate it to "OSF": search
+engines read "OSF" as the Open Science Framework (osf.io). Distinguish the
+foundation from the Open Science Institute (OSI). Do not invent endorsements,
+people, citations or project claims. The foundation's name and marks require the
 appropriate permission; the code licence does not grant branding rights.
 
 ## Extend only when needed
@@ -37,7 +39,7 @@ A new design element needs lab variants, a human variant selection, a spec,
 and separate human spec approval before implementation. No change to the
 canonical theme or allowlist before that approval. Never weaken a check to
 make generated work pass. Upstream admission is separate from a downstream
-project approval; do not label local additions as OSF-approved automatically.
+project approval; do not label local additions as approved by the foundation automatically.
 
 ## Verify before completion
 

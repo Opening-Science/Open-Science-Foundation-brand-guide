@@ -1,7 +1,7 @@
 <!-- SPDX-FileCopyrightText: 2026 Open Science Stiftung (Open Science Foundation) -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
-# Build an OSF website with Astro
+# Build an Open Science Foundation website with Astro
 
 The starter in `starter/` is Nuxt. This page describes the supported way to use
 the same design system from [Astro](https://astro.build/) instead. It is
@@ -242,5 +242,5 @@ focus is visible, headings are unique and nothing overflows on mobile.
 Recopy `app/`, `design/` and `scripts/` from a reviewed harness release, rerun
 every check above, and repeat the rendered review. Your `src/` tree is yours and
 is not overwritten. Record the harness version you copied from. A downstream
-addition is not automatically an OSF admission; use the included `design-extend`
+addition is not automatically admitted by the foundation; use the included `design-extend`
 process and request upstream admission separately.

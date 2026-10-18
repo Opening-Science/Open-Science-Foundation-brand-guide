@@ -27,7 +27,7 @@ HOW TO USE THIS BOOK
 A WORKING IDENTITY SYSTEM
 Start with what is already ours.
 
-This guide brings the existing OSF identity into one practical reference. The website theme and original masters remain the design authority.
+This guide brings the existing Open Science Foundation identity into one practical reference. The website theme and original masters remain the design authority.
 01
 Foundation
 Purpose, language and the brand idea
@@ -111,7 +111,7 @@ VOICE & TERMINOLOGY
 Clear words. Specific claims.
 
 ONE-SENTENCE INTRODUCTION
-The Open Science Foundation (OSF) is a Swiss foundation that funds and conducts open science.
+The Open Science Foundation is a Swiss foundation that funds and conducts open science.
 
 Put the work first.
 
@@ -119,7 +119,7 @@ Name the project, activity or finding. Use plain language and explain specialise
 
 Keep names distinct.
 
-OSF is the foundation. The Open Science Institute (OSI) is funded and governed by OSF. Spell out each name on first use.
+Write “Open Science Foundation” in full, then “the foundation”. Never shorten it to “OSF”, which search engines read as the Open Science Framework. The Open Science Institute (OSI) is funded and governed by the foundation.
 
 Let evidence set the tone.
 
@@ -188,7 +188,7 @@ Use the right form.
 
 WHEN THE FOUNDATION SPEAKS
 Full positive signature
-Use on reports, decks, social graphics and correspondence. It is the default when OSF needs to be named.
+Use on reports, decks, social graphics and correspondence. It is the default when the foundation needs to be named.
 
 WHEN THE SURFACE IS DARK
 Full negative signature
@@ -373,7 +373,7 @@ Secondary information on suitable light surfaces.
 Gray light #EEEEEE 
 Yellow #E3BE00 
 Yellow light #FEFBE9
-YELLOW BELONGS TO EXISTING LINK HOVER TREATMENTS. OPENTWIN RED IS EXCLUDED FROM OSF COMPOSITIONS.
+YELLOW BELONGS TO EXISTING LINK HOVER TREATMENTS. OPENTWIN RED IS EXCLUDED FROM FOUNDATION COMPOSITIONS.
 
 BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
 13
@@ -440,7 +440,7 @@ BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
 OPEN SCIENCE FOUNDATION / IDENTITY SYSTEM
 TYPOGRAPHY / FAMILIES
 
-THE OSF TYPE PAIR
+THE FOUNDATION TYPE PAIR
 A human voice. A precise detail.
 
 Aa
@@ -507,7 +507,7 @@ A clear title, a short statement and a readable paragraph. Let space separate th
 Presentation roles: 78, 60, 45, 27 and 21 CSS px. Document roles: 27.5, 20.625, 14.4375, 11 and 9.625 pt.
 These are existing template adaptations. Keep the website theme as the source for digital implementation.
 
-TEXT-LG IS DELIBERATELY UNSET. DO NOT ADD NEW TYPEFACES OR TREAT A FALLBACK AS APPROVED OSF TYPOGRAPHY.
+TEXT-LG IS DELIBERATELY UNSET. DO NOT ADD NEW TYPEFACES OR TREAT A FALLBACK AS APPROVED FOUNDATION TYPOGRAPHY.
 
 BRAND GUIDE / EDITION 01 / 10 SEPTEMBER 2026
 16
@@ -732,7 +732,7 @@ Use a factual relationship label. Do not imply endorsement, funding or affiliati
 
 03 / ACCESS
 Name the destination.
-For an OSF home link, use “Open Science Foundation home”. If adjacent text repeats the name, avoid duplicate announcements.
+For a link to the foundation’s home page, use “Open Science Foundation home”. If adjacent text repeats the name, avoid duplicate announcements.
 
 ILLUSTRATIVE CO-BRANDING ARRANGEMENT. USE ORIGINAL PARTNER ARTWORK AND CONFIRMED RELATIONSHIPS.
 
@@ -785,15 +785,15 @@ SOURCES / EDITION NOTES
 BUILT FROM THE EXISTING IDENTITY
 An identity to work with.
 
-Edition 01 translates the existing OSF brand system into a visual reference, dated 10 September 2026.
-The 27-page format and subject sequence take inspiration from the supplied ISCC guide. The identity, copy, artwork and practical rules here come from OSF sources and this edition’s clearly labelled application studies.
+Edition 01 translates the foundation’s existing brand system into a visual reference, dated 10 September 2026.
+The 27-page format and subject sequence take inspiration from the supplied ISCC guide. The identity, copy, artwork and practical rules here come from the foundation’s sources and this edition’s clearly labelled application studies.
 DESIGN CREDITS
-Visual identity: Martin Golombek.Identity realisation and founding website graphic design: Tom Walsh / Prolog.Credits follow the OSF People page.
+Visual identity: Martin Golombek.Identity realisation and founding website graphic design: Tom Walsh / Prolog.Credits follow the foundation’s People page.
 RIGHTS & EDITION
-Guide prose: CC BY 4.0. Original logo artwork retains the OSF Brand Assets Permission. Website animation artwork and films retain their existing rights. Source code retains its scoped licences. Font software is not distributed.
+Guide prose: CC BY 4.0. Original logo artwork retains the foundation’s Brand Assets Permission. Website animation artwork and films retain their existing rights. Source code retains its scoped licences. Font software is not distributed.
 
 01 / BRAND AUTHORITY
-OSF brand repository
+Foundation brand repository
 [Open-Science-Foundation-brand-guide](https://github.com/Opening-Science/Open-Science-Foundation-brand-guide)Base commit e97831e. Guide, tokens and original logos.
 
 02 / WEBSITE SOURCE

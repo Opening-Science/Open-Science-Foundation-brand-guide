@@ -3,6 +3,13 @@
 
 # Changelog
 
+## 2026-10-18: foundation naming
+
+- Stop abbreviating the Open Science Foundation as "OSF" in prose, headings, skill descriptions, starter copy and the visual guide. Google reads "OSF" as the Open Science Framework (osf.io) and has merged the two organisations in Google Lens and AI Overviews. The owner directed on 8 October 2026 that the foundation is never abbreviated.
+- Rewrite the naming rule in the brand guide, AGENTS.md and the skills: "Open Science Foundation" on first mention, then "the foundation"; "Open Science Framework" when osf.io is meant; the Open Science Institute in full on first mention, then "the institute" or "OSI".
+- Rename the logo downloads from `OSF_*` to `Open-Science-Foundation_logo_*` and `Open-Science-Foundation_mark_website.*`. The artwork bytes and hashes are unchanged.
+- Regenerate the visual guide HTML, text companion and PDF. Machine identifiers such as SPDX licence references, skill slugs, the `OSF_BRANDKIT_PATH` variable and the `--osf-` CSS prefix are unchanged.
+
 ## 2026-09-10
 
 - Rename the repository to Open-Science-Foundation-brand-guide.

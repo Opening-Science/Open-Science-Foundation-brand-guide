@@ -4,7 +4,7 @@
   "assets": [
     {
       "path": "docs/Open-Science-Foundation-brand-guide-2026-09-10.pdf",
-      "sha256": "0da420837310050d0f670ead7c347c9334067a3873fdea72d233c6b17e19fec9",
+      "sha256": "f0d8f6506d353aa38753bedd4febf6c71bbb3062857b43dc90898e52a98fdbc9",
       "license": "CC-BY-4.0 AND LicenseRef-OSF-Brand-Assets AND LicenseRef-OSF-Website-Media",
       "source": "docs/guide/build.py, original logos and registered motion/media assets"
     },
